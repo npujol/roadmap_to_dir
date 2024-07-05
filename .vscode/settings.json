@@ -1,0 +1,11 @@
+{
+    "nixEnvSelector.nixFile": "${workspaceFolder}/flake.nix",
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "black-formatter.importStrategy": "fromEnvironment",
+    "python.testing.pytestArgs": [
+        "app"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
