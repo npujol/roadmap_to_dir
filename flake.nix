@@ -45,13 +45,12 @@
             checkGroups = [];
           };
 
-          # # Use xvfb-run to run the bot in headless mode
-          # packages.bot = pkgs.writeShellScriptBin "bot" ''
-          #   ${environment-variable}
-          #   ${pkgs.lib.getExe pkgs.xvfb-run} ${packages.app}/bin/bot
-          # '';
+          # Use xvfb-run to run the bot in headless mode
+          packages.bot = pkgs.writeShellScriptBin "roadmap_to_dir" ''
+            ${environment-variable}
+            ${pkgs.lib.getExe pkgs.xvfb-run} ${packages.app}/bin/roadmap_to_dir
+          '';
 
-          # defaultPackage = packages.bot;
           formatter = pkgs.alejandra;
         }
     );
