@@ -77,22 +77,16 @@ class SubRoadmap(BaseModel):
                     continue
 
                 control_name_parts: list[str] = control_name.split(sep=":")
-                # Topic example: 100-python-basics
-                if len(control_name_parts) == 1:
-                    topic_parts: list[str] = control_name_parts[0].split(sep="-")
-                    current_topic = topic_parts[-1]
-                    if current_topic == "roadmap":
-                        continue
-                    if current_topic not in current_subtopics.keys():
-                        current_subtopics[current_topic] = []
-                    # Subtopic example: 100-python-package-managers:pypi
-                elif len(control_name_parts) == 2:
-                    current_topic = control_name_parts[0].split(sep="-")[-1]
-                    current_subtopic: str = control_name_parts[1]
-                    if current_topic not in current_subtopics.keys():
-                        current_subtopics[current_topic] = [current_subtopic]
-                    else:
-                        current_subtopics[current_topic].append(current_subtopic)
+                # Topic example: 100-python-package-managers
+                # Subtopic example: 100-python-package-managers:pypi
+                topic_parts = control_name_parts[0].split(sep="-")
+                current_topic = topic_parts[-1]
+                if current_topic == "roadmap":
+                    continue
+                if current_topic not in current_subtopics.keys():
+                    current_subtopics[current_topic] = []
+                if len(control_name_parts) == 2:
+                    current_subtopics[current_topic].append(control_name_parts[1])
         logger.info(msg=f"Adding {roadmap_name=}")
         result[roadmap_name] = []
 
