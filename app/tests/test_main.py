@@ -6,6 +6,7 @@ import pytest
 from pytest_insta.fixture import SnapshotFixture
 
 from app.main import RoadmapExtractor
+from app.serializers import Roadmap, SubRoadmap
 
 
 @pytest.mark.vcr()
@@ -18,22 +19,16 @@ def test_download_roadmap_page(
 
 
 @pytest.mark.vcr()
-def test_download_roadmap_json(
-    roadmap_extractor_fixture: RoadmapExtractor, snapshot: SnapshotFixture
+@pytest.mark.parametrize("roadmap_name", ["devops", "python"])
+def test_get_roadmap(
+    roadmap_name: str,
+    roadmap_extractor_fixture: RoadmapExtractor,
+    snapshot: SnapshotFixture,
 ) -> None:
-    name = "devops"
-    result: dict[Any, Any] = roadmap_extractor_fixture.download_roadmap_json(name=name)
-    assert snapshot("json") == result
-
-
-@pytest.mark.vcr()
-def test_extract_topic_and_subtopics(
-    roadmap_extractor_fixture: RoadmapExtractor, snapshot: SnapshotFixture
-) -> None:
-    result: dict[str, list[list[str]]] = (
-        roadmap_extractor_fixture.extract_topic_and_subtopics(name="devops")
+    result: Roadmap | SubRoadmap = roadmap_extractor_fixture.get_roadmap(
+        name=roadmap_name
     )
-    assert snapshot("json") == result
+    assert snapshot(f"{roadmap_name}.json") == result.model_dump(mode="json")
 
 
 def test_directory_structure(
@@ -64,11 +59,13 @@ def test_directory_structure(
     with open(file=md_file_path, mode="r") as file:
         content: str = file.read()
 
-    assert snapshot("json") == content
+    assert snapshot() == content
 
 
 @pytest.mark.vcr()
+@pytest.mark.parametrize("roadmap_name", ["devops", "python"])
 def test_handle(
+    roadmap_name: str,
     roadmap_extractor_fixture: RoadmapExtractor,
     tmp_path: Path,
     snapshot: SnapshotFixture,
@@ -79,7 +76,7 @@ def test_handle(
     assert base_path.exists()
     with caplog.at_level(logging.INFO):
         roadmap_extractor_fixture.handle(
-            roadmap_name="devops",
+            roadmap_name=roadmap_name,
             output_path=base_path,
         )
-    assert snapshot("json") == caplog.text
+    assert snapshot(f"{roadmap_name}.txt") == caplog.text

@@ -1,0 +1,1316 @@
+{
+  "nodes": [
+    {
+      "id": "iU2f2TbjbjrCSDoIQN75c",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "fL1LKBwDDxnzuUaxMxfMz",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "bnHYl23RxloIt7dR5V7PF",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "JizyX8jse920gpWcmoSED",
+      "type": "section",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "SPXgDee7rpQAX3FfTdA3J",
+      "type": "section",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "45zz5L6lKJrF9JWgyj1Pz",
+      "type": "section",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "7crPw2SKw-TlsSe9kpZFQ",
+      "type": "section",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "78fdvOJN2xs2co5L8Ldvf",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "PsbYeHGMd9E1UNqcaFQOz",
+      "type": "section",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "2-SE-hXZHqrxxogHYfC9O",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "Z9kbJS29EAsTKguLJlOiu",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "OY4ipeYrizxKKv9Z72iLR",
+      "type": "section",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "fqBgeJj5fan4TT7K2E6c7",
+      "type": "title",
+      "selected": false,
+      "data": {
+        "label": "DevOps"
+      }
+    },
+    {
+      "id": "J4hDw1hZqw6pI4iykkXXQ",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "v5FGKQc-_7NYEsWjmTEuq",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Learn a Programming Language"
+      }
+    },
+    {
+      "id": "TwVfCYMS9jSaJ6UyYmC-K",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Python"
+      }
+    },
+    {
+      "id": "PuXAPYA0bsMgwcnlwJxQn",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Ruby"
+      }
+    },
+    {
+      "id": "npnMwSDEK2aLGgnuZZ4dO",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Go"
+      }
+    },
+    {
+      "id": "eL62bKAoJCMsu7zPlgyhy",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Rust"
+      }
+    },
+    {
+      "id": "QCdemtWa2mE78poNXeqzr",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "JavaScript / Node.js"
+      }
+    },
+    {
+      "id": "LFXvvH86fAyJBtQVd7acq",
+      "type": "legend",
+      "selected": false,
+      "data": {
+        "label": ""
+      }
+    },
+    {
+      "id": "qe84v529VbCyydl0BKFk2",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Operating System"
+      }
+    },
+    {
+      "id": "3A1SykJ5JxBFeVzSzDEWJ",
+      "type": "label",
+      "selected": false,
+      "data": {
+        "label": "Linux"
+      }
+    },
+    {
+      "id": "8hSJLQBKu8ablW2Lwxknv",
+      "type": "label",
+      "selected": false,
+      "data": {
+        "label": "Unix"
+      }
+    },
+    {
+      "id": "cTqVab0VbVcn3W7i0wBrX",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Ubuntu / Debian"
+      }
+    },
+    {
+      "id": "zhNUK953p6tjREndk3yQZ",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "SUSE Linux"
+      }
+    },
+    {
+      "id": "7mS6Y_BOAHNgM3OjyFtZ9",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "RHEL / Derivatives"
+      }
+    },
+    {
+      "id": "PiPHFimToormOPl1EtEe8",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "FreeBSD"
+      }
+    },
+    {
+      "id": "97cJYKqv7CPPUXkKNwM4x",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "OpenBSD"
+      }
+    },
+    {
+      "id": "haiYSwNt3rjiiwCDszPk1",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "NetBSD"
+      }
+    },
+    {
+      "id": "UOQimp7QkM3sxmFvk5d3i",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Windows"
+      }
+    },
+    {
+      "id": "wjJPzrFJBNYOD3SJLzW2M",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Terminal Knowledge"
+      }
+    },
+    {
+      "id": "x-JWvG1iw86ULL9KrQmRu",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Process Monitoring"
+      }
+    },
+    {
+      "id": "gIEQDgKOsoEnSv8mpEzGH",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Performance Monitoring"
+      }
+    },
+    {
+      "id": "OaqKLZe-XnngcDhDzCtRt",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Networking Tools"
+      }
+    },
+    {
+      "id": "cUifrP7v55psTb20IZndf",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Text Manipulation"
+      }
+    },
+    {
+      "id": "syBIAL1mHbJLnTBoSxXI7",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Bash"
+      }
+    },
+    {
+      "id": "z6IBekR8Xl-6f8WEb05Nw",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Power Shell"
+      }
+    },
+    {
+      "id": "Jt8BmtLUH6fHT2pGKoJs3",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Vim / Nano /  Emacs"
+      }
+    },
+    {
+      "id": "ZusrlGqCntlKDPOaTiWqI",
+      "type": "label",
+      "selected": false,
+      "data": {
+        "label": "Scripting"
+      }
+    },
+    {
+      "id": "LvhFmlxz5uIy7k_nzx2Bv",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Version Control Systems"
+      }
+    },
+    {
+      "id": "uyDm1SpOQdpHjq9zBAdck",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Git"
+      }
+    },
+    {
+      "id": "h10BH3OybHcIN2iDTSGkn",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "VCS Hosting"
+      }
+    },
+    {
+      "id": "ot9I_IHdnq2yAMffrSrbN",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "GitHub"
+      }
+    },
+    {
+      "id": "oQIB0KE0BibjIYmxrpPZS",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "GitLab"
+      }
+    },
+    {
+      "id": "Z7SsBWgluZWr9iWb2e9XO",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "BitBucket"
+      }
+    },
+    {
+      "id": "jCWrnQNgjHKyhzd9dwOHz",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "What is and how to setup X ?"
+      }
+    },
+    {
+      "id": "F93XnRj0BLswJkzyRggLS",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Forward Proxy"
+      }
+    },
+    {
+      "id": "f3tM2uo6LLSOmyeFfLc7h",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Firewall"
+      }
+    },
+    {
+      "id": "ukOrSeyK1ElOt9tTjCkfO",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Nginx"
+      }
+    },
+    {
+      "id": "dF3otkMMN09tgCzci8Jyv",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Tomcat"
+      }
+    },
+    {
+      "id": "0_GMTcMeZv3A8dYkHRoW7",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Apache"
+      }
+    },
+    {
+      "id": "54UZNO2q8M5FiA_XbcU_D",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Caddy"
+      }
+    },
+    {
+      "id": "5iJOE1QxMvf8BQ_8ssiI8",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "IIS"
+      }
+    },
+    {
+      "id": "R4XSY4TSjU1M7cW66zUqJ",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Caching Server"
+      }
+    },
+    {
+      "id": "i8Sd9maB_BeFurULrHXNq",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Load Balancer"
+      }
+    },
+    {
+      "id": "eGF7iyigl57myx2ejpmNC",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Reverse Proxy"
+      }
+    },
+    {
+      "id": "CQhUflAcv1lhBnmDY0gaz",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Containers"
+      }
+    },
+    {
+      "id": "P0acFNZ413MSKElHqCxr3",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Docker"
+      }
+    },
+    {
+      "id": "qYRJYIZsmf-inMqKECRkI",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "LXC"
+      }
+    },
+    {
+      "id": "2Wd9SlWGg6QtxgiUVLyZL",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Cloud Providers"
+      }
+    },
+    {
+      "id": "1ieK6B_oqW8qOC6bdmiJe",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "AWS"
+      }
+    },
+    {
+      "id": "ctor79Vd7EXDMdrLyUcu_",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Azure"
+      }
+    },
+    {
+      "id": "zYrOxFQkl3KSe67fh3smD",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Google Cloud"
+      }
+    },
+    {
+      "id": "-h-kNVDNzZYnQAR_4lfXc",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Digital Ocean"
+      }
+    },
+    {
+      "id": "YUJf-6ccHvYjL_RzufQ-G",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Alibaba Cloud"
+      }
+    },
+    {
+      "id": "I327qPYGMcdayRR5WT0Ek",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Hetzner"
+      }
+    },
+    {
+      "id": "FaPf567JGRAg1MBlFj9Tk",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Heroku "
+      }
+    },
+    {
+      "id": "eJZdjheptmiwKsVokt7Io",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Contabo"
+      }
+    },
+    {
+      "id": "RDLmML_HS2c8J4D_U_KYe",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "FTP / SFTP"
+      }
+    },
+    {
+      "id": "Vu955vdsYerCG8G6suqml",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "DNS"
+      }
+    },
+    {
+      "id": "ke-8MeuLx7AS2XjSsPhxe",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "HTTP"
+      }
+    },
+    {
+      "id": "AJO3jtHvIICj8YKaSXl0U",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "HTTPS"
+      }
+    },
+    {
+      "id": "0o6ejhfpmO4S8A6djVWva",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "SSL / TLS"
+      }
+    },
+    {
+      "id": "wcIRMLVm3SdEJWF9RPfn7",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "SSH"
+      }
+    },
+    {
+      "id": "E-lSLGzgOPrz-25ER2Hk7",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "White / Grey Listing"
+      }
+    },
+    {
+      "id": "zJy9dOynWgLTDKI1iBluG",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "SMTP"
+      }
+    },
+    {
+      "id": "5vUKHuItQfkarp7LtACvX",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "DMARC"
+      }
+    },
+    {
+      "id": "WMuXqa4b5wyRuYAQKQJRj",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "IMAPS"
+      }
+    },
+    {
+      "id": "ewcJfnDFKXN8I5TLpXEaB",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "SPF"
+      }
+    },
+    {
+      "id": "fzO6xVTBxliu24f3W5zaU",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "POP3S"
+      }
+    },
+    {
+      "id": "RYCD78msIR2BPJoIP71aj",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Domain Keys"
+      }
+    },
+    {
+      "id": "n-pIspYFAk0vpHNbLbbLz",
+      "type": "label",
+      "selected": false,
+      "data": {
+        "label": "Email Protocols"
+      }
+    },
+    {
+      "id": "QZ7bkY-MaEgxYoPDP3nma",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "OSI Model"
+      }
+    },
+    {
+      "id": "w5d24Sf8GDkLDLGUPxzS9",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Networking & Protocols"
+      }
+    },
+    {
+      "id": "9p_ufPj6QH9gHbWBQUmGw",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Serverless"
+      }
+    },
+    {
+      "id": "LZDRgDxEZ3klp2PrrJFBX",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Vercel"
+      }
+    },
+    {
+      "id": "l8VAewSEXzoyqYFhoplJj",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Cloudflare"
+      }
+    },
+    {
+      "id": "mlrlf2McMI7IBhyEdq0Nf",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Azure Functions"
+      }
+    },
+    {
+      "id": "UfQrIJ-uMNJt9H_VM_Q5q",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "AWS Lambda"
+      }
+    },
+    {
+      "id": "hCKODV2b_l2uPit0YeP1M",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Netlify"
+      }
+    },
+    {
+      "id": "1oYvpFG8LKT1JD6a_9J0m",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Provisioning"
+      }
+    },
+    {
+      "id": "XA__697KgofsH28coQ-ma",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "AWS CDK"
+      }
+    },
+    {
+      "id": "TgBb4aL_9UkyU36CN4qvS",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "CloudFormation"
+      }
+    },
+    {
+      "id": "O0xZ3dy2zIDbOetVrgna6",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Pulumi"
+      }
+    },
+    {
+      "id": "nUBGf1rp9GK_pbagWCP9g",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Terraform"
+      }
+    },
+    {
+      "id": "V9sOxlNOyRp0Mghl7zudv",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Configuration Management"
+      }
+    },
+    {
+      "id": "h9vVPOmdUSeEGVQQaSTH5",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Ansible"
+      }
+    },
+    {
+      "id": "kv508kxzUj_CjZRb-TeRv",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Chef"
+      }
+    },
+    {
+      "id": "yP1y8U3eblpzbaLiCGliU",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Puppet"
+      }
+    },
+    {
+      "id": "aQJaouIaxIJChM-40M3HQ",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "CI / CD Tools"
+      }
+    },
+    {
+      "id": "JnWVCS1HbAyfCJzGt-WOH",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "GitHub Actions"
+      }
+    },
+    {
+      "id": "2KjSLLVTvl2G2KValw7S7",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "GitLab CI"
+      }
+    },
+    {
+      "id": "dUapFp3f0Rum-rf_Vk_b-",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Jenkins"
+      }
+    },
+    {
+      "id": "-pGF3soruWWxwE4LxE5Vk",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Travis CI"
+      }
+    },
+    {
+      "id": "1-JneOQeGhox-CKrdiquq",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Circle CI"
+      }
+    },
+    {
+      "id": "TsXFx1wWikVBVoFUUDAMx",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Drone"
+      }
+    },
+    {
+      "id": "L000AbzF3oLcn4B1eUIYX",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "TeamCity"
+      }
+    },
+    {
+      "id": "hcrPpjFxPi_iLiMdLKJrO",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Secret Management"
+      }
+    },
+    {
+      "id": "ZWq23Q9ZNxLNti68oltxA",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Sealed Secrets"
+      }
+    },
+    {
+      "id": "yQ4d2uiROZYr950cjYnQE",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Cloud Specific Tools"
+      }
+    },
+    {
+      "id": "tZzvs80KzqT8aDvEyjack",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Vault"
+      }
+    },
+    {
+      "id": "GHQWHLxsO40kJ6z_YCinJ",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "SOPs"
+      }
+    },
+    {
+      "id": "qqRLeTpuoW64H9LvY0U_w",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Infrastructure Monitoring"
+      }
+    },
+    {
+      "id": "W9sKEoDlR8LzocQkqSv82",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Zabbix"
+      }
+    },
+    {
+      "id": "NiVvRbCOCDpVvif48poCo",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Prometheus"
+      }
+    },
+    {
+      "id": "bujq_C-ejtpmk-ICALByy",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Datadog"
+      }
+    },
+    {
+      "id": "niA_96yR7uQ0sc6S_OStf",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Grafana"
+      }
+    },
+    {
+      "id": "gaoZjOYmU0J5aM6vtLNvN",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Logs Management"
+      }
+    },
+    {
+      "id": "K_qLhK2kKN_uCq7iVjqph",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Elastic Stack"
+      }
+    },
+    {
+      "id": "s_kss4FJ2KyZRdcKNHK2v",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Graylog"
+      }
+    },
+    {
+      "id": "dZID_Y_uRTF8JlfDCqeqs",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Splunk"
+      }
+    },
+    {
+      "id": "cjjMZdyLgakyVkImVQTza",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Papertrail"
+      }
+    },
+    {
+      "id": "Yq8kVoRf20aL_o4VZU5--",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Container Orchestration"
+      }
+    },
+    {
+      "id": "XbrWlTyH4z8crSHkki2lp",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "GKE / EKS / AKS"
+      }
+    },
+    {
+      "id": "FE2h-uQy6qli3rKERci1j",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "AWS ECS / Fargate"
+      }
+    },
+    {
+      "id": "VD24HC9qJOC42lbpJ-swC",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Docker Swarm"
+      }
+    },
+    {
+      "id": "zuBAjrqQPjj-0DHGjCaqT",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Artifact Management"
+      }
+    },
+    {
+      "id": "C_sFyIsIIpriZlovvcbSE",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Artifactory"
+      }
+    },
+    {
+      "id": "ootuLJfRXarVvm3J1Ir11",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Nexus"
+      }
+    },
+    {
+      "id": "vsmE6EpCc2DFGk1YTbkHS",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Cloud Smith"
+      }
+    },
+    {
+      "id": "-INN1qTMLimrZgaSPCcHj",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "GitOps"
+      }
+    },
+    {
+      "id": "i-DLwNXdCUUug6lfjkPSy",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "ArgoCD"
+      }
+    },
+    {
+      "id": "6gVV_JUgKgwJb4C8tHZn7",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "FluxCD"
+      }
+    },
+    {
+      "id": "EeWsihH9ehbFKebYoB5i9",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Service Mesh"
+      }
+    },
+    {
+      "id": "XsSnqW6k2IzvmrMmJeU6a",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Istio"
+      }
+    },
+    {
+      "id": "OXOTm3nz6o44p50qd0brN",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Consul"
+      }
+    },
+    {
+      "id": "hhoSe4q1u850PgK62Ubau",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Linkerd"
+      }
+    },
+    {
+      "id": "epLLYArR16HlhAS4c33b4",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Envoy"
+      }
+    },
+    {
+      "id": "Qc0MGR5bMG9eeM5Zb9PMk",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Cloud Design Patterns"
+      }
+    },
+    {
+      "id": "JCe3fcOf-sokTJURyX1oI",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Availability"
+      }
+    },
+    {
+      "id": "5FN7iva4DW_lv-r1tijd8",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Data Management"
+      }
+    },
+    {
+      "id": "1_NRXjckZ0F8EtEmgixqz",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Design and Implementation"
+      }
+    },
+    {
+      "id": "8kby89epyullS9W7uKDrs",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Management and Monitoring"
+      }
+    },
+    {
+      "id": "Ju00mr0KLGN2BV6yEQGPt",
+      "type": "vertical",
+      "selected": false,
+      "data": {
+        "label": "vertical node"
+      }
+    },
+    {
+      "id": "sVXZrBCsiSzWBBYWTm-nQ",
+      "type": "paragraph",
+      "selected": false,
+      "data": {
+        "label": "Have a look at the following relevant roadmaps"
+      }
+    },
+    {
+      "id": "wKYrZhmdNsv1Dw74-oAjR",
+      "type": "button",
+      "selected": false,
+      "data": {
+        "label": "Backend"
+      }
+    },
+    {
+      "id": "IjRWRJtJqhSsf67kh5YE6",
+      "type": "button",
+      "selected": false,
+      "data": {
+        "label": "Docker"
+      }
+    },
+    {
+      "id": "0iBhYESSf5f6WHvs_QqC5",
+      "type": "button",
+      "selected": false,
+      "data": {
+        "label": "Kubernetes"
+      }
+    },
+    {
+      "id": "uSLzfLPXxS5-P7ozscvjZ",
+      "type": "button",
+      "selected": false,
+      "data": {
+        "label": "Linux"
+      }
+    },
+    {
+      "id": "yHmHXymPNWwu8p1vvqD3o",
+      "type": "paragraph",
+      "selected": false,
+      "data": {
+        "label": "Find the detailed version of this roadmap along with other similar roadmaps"
+      }
+    },
+    {
+      "id": "2zqZkyVgigifcRS1H7F_b",
+      "type": "button",
+      "selected": false,
+      "data": {
+        "label": "roadmap.sh"
+      }
+    },
+    {
+      "id": "MfErpYwkJ0wiWJZEUVfrb",
+      "type": "button",
+      "selected": false,
+      "data": {
+        "label": "Visit the Beginner Version"
+      }
+    },
+    {
+      "id": "w2eCgBC-ydMHSxh7LMti8",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Loki"
+      }
+    },
+    {
+      "id": "hIBeTUiAI3zwUY6NgAO-A",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Kubernetes"
+      }
+    },
+    {
+      "id": "z7rDVZZVr1C2ZoOHGxDQ_",
+      "type": "label",
+      "selected": false,
+      "data": {
+        "label": "Web Server"
+      }
+    },
+    {
+      "id": "5zUf-LBQ0ByeP2hnAf9x1",
+      "type": "label",
+      "selected": false,
+      "data": {
+        "label": "Editors"
+      }
+    },
+    {
+      "id": "JXsctlXUUS1ie8nNEgIk9",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "GCP Functions"
+      }
+    },
+    {
+      "id": "wNguM6-YEznduz3MgBCYo",
+      "type": "topic",
+      "selected": false,
+      "data": {
+        "label": "Application Monitoring"
+      }
+    },
+    {
+      "id": "8rd7T5ahK2I_zh5co-IF-",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Jaeger"
+      }
+    },
+    {
+      "id": "pk76Us6z8LoX3f0mhnCyR",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "New Relic"
+      }
+    },
+    {
+      "id": "BHny2Emf96suhAlltiEro",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Datadog"
+      }
+    },
+    {
+      "id": "eOyu4wmKOrcMlhD8pUGGh",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "Prometheus"
+      }
+    },
+    {
+      "id": "K81bmtgnB1gfhYdi3TB5a",
+      "type": "subtopic",
+      "selected": false,
+      "data": {
+        "label": "OpenTelemetry"
+      }
+    }
+  ]
+}

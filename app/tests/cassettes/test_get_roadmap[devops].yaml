@@ -152,7 +152,7 @@ interactions:
         Recommendation / Opinion","position":"left-center"}},"position":{"x":2020.6275872741135,"y":2135.6542746452424},"width":119,"height":49,"selected":false,"positionAbsolute":{"x":2020.6275872741135,"y":2135.6542746452424},"dragging":false,"style":{"width":119,"height":49},"focusable":true,"selectable":true,"resizing":false},{"id":"GHQWHLxsO40kJ6z_YCinJ","type":"subtopic","data":{"label":"SOPs","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"fsxYh49oVbysjbXYBdL0J","label":"Alternative
         Option - Pick this or Purple","color":"#667113","position":"right-center"}},"position":{"x":2146.6275872741135,"y":2135.6542746452424},"width":103,"height":49,"selected":false,"positionAbsolute":{"x":2146.6275872741135,"y":2135.6542746452424},"dragging":false,"style":{"width":103,"height":49},"focusable":true,"selectable":true,"resizing":false},{"id":"qqRLeTpuoW64H9LvY0U_w","type":"topic","position":{"x":1437.7647088844683,"y":2135.6542746452424},"selected":false,"data":{"label":"Infrastructure
         Monitoring","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"oldId":"Qc0MGR5bMG9eeM5Zb9PMk"},"zIndex":999,"width":238,"height":49,"positionAbsolute":{"x":1437.7647088844683,"y":2135.6542746452424},"dragging":false,"style":{"width":238,"height":49},"resizing":false,"selectable":true,"focusable":true},{"id":"W9sKEoDlR8LzocQkqSv82","type":"subtopic","data":{"label":"Zabbix","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"fsxYh49oVbysjbXYBdL0J","label":"Alternative
-        Option - Pick this or Purple","color":"#667113","position":"left-center"}},"position":{"x":1443.6500824678124,"y":2329.3422065391833},"width":116,"height":49,"selected":false,"style":{"width":116,"height":49},"resizing":false,"dragging":false,"positionAbsolute":{"x":1443.6500824678124,"y":2329.3422065391833},"selectable":true,"focusable":true},{"id":"NiVvRbCOCDpVvif48poCo","type":"subtopic","data":{"label":"Pometheus","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
+        Option - Pick this or Purple","color":"#667113","position":"left-center"}},"position":{"x":1443.6500824678124,"y":2329.3422065391833},"width":116,"height":49,"selected":false,"style":{"width":116,"height":49},"resizing":false,"dragging":false,"positionAbsolute":{"x":1443.6500824678124,"y":2329.3422065391833},"selectable":true,"focusable":true},{"id":"NiVvRbCOCDpVvif48poCo","type":"subtopic","data":{"label":"Prometheus","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
         Recommendation / Opinion","position":"right-center"}},"position":{"x":1442.5,"y":2222.3422065391833},"width":230,"height":49,"selected":false,"style":{"width":230,"height":49},"resizing":false,"positionAbsolute":{"x":1442.5,"y":2222.3422065391833},"dragging":false,"selectable":true,"focusable":true},{"id":"bujq_C-ejtpmk-ICALByy","type":"subtopic","data":{"label":"Datadog","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
         Recommendation / Opinion","position":"right-center"}},"position":{"x":1563.6500824678124,"y":2329.3422065391833},"width":107,"height":49,"selected":false,"style":{"width":107,"height":49},"resizing":true,"positionAbsolute":{"x":1563.6500824678124,"y":2329.3422065391833},"dragging":false,"selectable":true,"focusable":true},{"id":"niA_96yR7uQ0sc6S_OStf","type":"subtopic","data":{"label":"Grafana","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
         Recommendation / Opinion","position":"right-center"}},"position":{"x":1442.5,"y":2275.3422065391833},"width":228,"height":49,"selected":false,"style":{"width":228,"height":49},"positionAbsolute":{"x":1442.5,"y":2275.3422065391833},"dragging":false,"resizing":false,"selectable":true,"focusable":true},{"id":"gaoZjOYmU0J5aM6vtLNvN","type":"topic","position":{"x":1186.9080590588455,"y":2009.6937435857144},"selected":false,"data":{"label":"Logs
@@ -260,7 +260,7 @@ interactions:
         8","strokeLinecap":"round","strokeWidth":3.5,"stroke":"#2b78e4"},"source":"wNguM6-YEznduz3MgBCYo","sourceHandle":"x2","target":"8rd7T5ahK2I_zh5co-IF-","targetHandle":"w1","data":{"edgeStyle":"dashed"},"id":"reactflow__edge-wNguM6-YEznduz3MgBCYox2-8rd7T5ahK2I_zh5co-IF-w1","selected":false,"focusable":true}]}'
     headers:
       Age:
-      - '34197'
+      - '17103'
       Connection:
       - keep-alive
       Content-Encoding:
@@ -268,11 +268,11 @@ interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Wed, 03 Jul 2024 11:57:31 GMT
+      - Sun, 07 Jul 2024 09:14:48 GMT
       ETag:
-      - W/"1ba4d-190786bbbeb"
+      - W/"1ba4e-19083dd1b9d"
       Last-Modified:
-      - Wed, 03 Jul 2024 11:47:24 GMT
+      - Fri, 05 Jul 2024 17:07:04 GMT
       Server:
       - nginx/1.18.0 (Ubuntu)
       Transfer-Encoding:
@@ -280,11 +280,11 @@ interactions:
       Vary:
       - Accept-Encoding
       Via:
-      - 1.1 eec12a22159207af63748eccf10799b2.cloudfront.net (CloudFront)
+      - 1.1 0a22f8f332c3e135af4786cbb2490510.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - Zu6VnDGPxgv-Mb3N4Ub5QyyEuaa9Y1glzlfRAn2XMvnx4Jofxtqs-w==
+      - Bj271Lpxj-nIhJkyP8RJdTXBE8mAg9gQz5vfdqwYIm81FDbiZf-Y_g==
       X-Amz-Cf-Pop:
-      - AMS54-C1
+      - MXP53-P2
       X-Cache:
       - Hit from cloudfront
       X-Frame-Options:
