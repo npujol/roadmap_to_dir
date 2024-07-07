@@ -152,7 +152,7 @@ interactions:
         Recommendation / Opinion","position":"left-center"}},"position":{"x":2020.6275872741135,"y":2135.6542746452424},"width":119,"height":49,"selected":false,"positionAbsolute":{"x":2020.6275872741135,"y":2135.6542746452424},"dragging":false,"style":{"width":119,"height":49},"focusable":true,"selectable":true,"resizing":false},{"id":"GHQWHLxsO40kJ6z_YCinJ","type":"subtopic","data":{"label":"SOPs","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"fsxYh49oVbysjbXYBdL0J","label":"Alternative
         Option - Pick this or Purple","color":"#667113","position":"right-center"}},"position":{"x":2146.6275872741135,"y":2135.6542746452424},"width":103,"height":49,"selected":false,"positionAbsolute":{"x":2146.6275872741135,"y":2135.6542746452424},"dragging":false,"style":{"width":103,"height":49},"focusable":true,"selectable":true,"resizing":false},{"id":"qqRLeTpuoW64H9LvY0U_w","type":"topic","position":{"x":1437.7647088844683,"y":2135.6542746452424},"selected":false,"data":{"label":"Infrastructure
         Monitoring","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"oldId":"Qc0MGR5bMG9eeM5Zb9PMk"},"zIndex":999,"width":238,"height":49,"positionAbsolute":{"x":1437.7647088844683,"y":2135.6542746452424},"dragging":false,"style":{"width":238,"height":49},"resizing":false,"selectable":true,"focusable":true},{"id":"W9sKEoDlR8LzocQkqSv82","type":"subtopic","data":{"label":"Zabbix","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"fsxYh49oVbysjbXYBdL0J","label":"Alternative
-        Option - Pick this or Purple","color":"#667113","position":"left-center"}},"position":{"x":1443.6500824678124,"y":2329.3422065391833},"width":116,"height":49,"selected":false,"style":{"width":116,"height":49},"resizing":false,"dragging":false,"positionAbsolute":{"x":1443.6500824678124,"y":2329.3422065391833},"selectable":true,"focusable":true},{"id":"NiVvRbCOCDpVvif48poCo","type":"subtopic","data":{"label":"Pometheus","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
+        Option - Pick this or Purple","color":"#667113","position":"left-center"}},"position":{"x":1443.6500824678124,"y":2329.3422065391833},"width":116,"height":49,"selected":false,"style":{"width":116,"height":49},"resizing":false,"dragging":false,"positionAbsolute":{"x":1443.6500824678124,"y":2329.3422065391833},"selectable":true,"focusable":true},{"id":"NiVvRbCOCDpVvif48poCo","type":"subtopic","data":{"label":"Prometheus","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
         Recommendation / Opinion","position":"right-center"}},"position":{"x":1442.5,"y":2222.3422065391833},"width":230,"height":49,"selected":false,"style":{"width":230,"height":49},"resizing":false,"positionAbsolute":{"x":1442.5,"y":2222.3422065391833},"dragging":false,"selectable":true,"focusable":true},{"id":"bujq_C-ejtpmk-ICALByy","type":"subtopic","data":{"label":"Datadog","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
         Recommendation / Opinion","position":"right-center"}},"position":{"x":1563.6500824678124,"y":2329.3422065391833},"width":107,"height":49,"selected":false,"style":{"width":107,"height":49},"resizing":true,"positionAbsolute":{"x":1563.6500824678124,"y":2329.3422065391833},"dragging":false,"selectable":true,"focusable":true},{"id":"niA_96yR7uQ0sc6S_OStf","type":"subtopic","data":{"label":"Grafana","style":{"fontSize":17,"justifyContent":"flex-start","textAlign":"center"},"legend":{"id":"RkcQf9vafpvjAVpo02XhQ","color":"#2b78e4","label":"Personal
         Recommendation / Opinion","position":"right-center"}},"position":{"x":1442.5,"y":2275.3422065391833},"width":228,"height":49,"selected":false,"style":{"width":228,"height":49},"positionAbsolute":{"x":1442.5,"y":2275.3422065391833},"dragging":false,"resizing":false,"selectable":true,"focusable":true},{"id":"gaoZjOYmU0J5aM6vtLNvN","type":"topic","position":{"x":1186.9080590588455,"y":2009.6937435857144},"selected":false,"data":{"label":"Logs
@@ -259,6 +259,8 @@ interactions:
         8","strokeLinecap":"round","strokeWidth":3.5,"stroke":"#2b78e4"},"source":"Qc0MGR5bMG9eeM5Zb9PMk","sourceHandle":"y2","target":"8kby89epyullS9W7uKDrs","targetHandle":"z1","data":{"edgeStyle":"dashed"},"id":"reactflow__edge-Qc0MGR5bMG9eeM5Zb9PMky2-8kby89epyullS9W7uKDrsz1","selected":false,"focusable":true},{"style":{"strokeDasharray":"0","strokeLinecap":"round","strokeWidth":3.5,"stroke":"#2b78e4"},"source":"Yq8kVoRf20aL_o4VZU5--","sourceHandle":"z2","target":"wNguM6-YEznduz3MgBCYo","targetHandle":"y1","data":{"edgeStyle":"solid"},"id":"reactflow__edge-Yq8kVoRf20aL_o4VZU5--z2-wNguM6-YEznduz3MgBCYoy1","selected":false,"focusable":true},{"style":{"strokeDasharray":"0","strokeLinecap":"round","strokeWidth":3.5,"stroke":"#2b78e4"},"source":"wNguM6-YEznduz3MgBCYo","sourceHandle":"z2","target":"zuBAjrqQPjj-0DHGjCaqT","targetHandle":"y1","data":{"edgeStyle":"solid"},"id":"reactflow__edge-wNguM6-YEznduz3MgBCYoz2-zuBAjrqQPjj-0DHGjCaqTy1","selected":false,"focusable":true},{"style":{"strokeDasharray":"0.8
         8","strokeLinecap":"round","strokeWidth":3.5,"stroke":"#2b78e4"},"source":"wNguM6-YEznduz3MgBCYo","sourceHandle":"x2","target":"8rd7T5ahK2I_zh5co-IF-","targetHandle":"w1","data":{"edgeStyle":"dashed"},"id":"reactflow__edge-wNguM6-YEznduz3MgBCYox2-8rd7T5ahK2I_zh5co-IF-w1","selected":false,"focusable":true}]}'
     headers:
+      Age:
+      - '17103'
       Connection:
       - keep-alive
       Content-Encoding:
@@ -266,11 +268,11 @@ interactions:
       Content-Type:
       - application/json; charset=UTF-8
       Date:
-      - Wed, 03 Jul 2024 21:44:55 GMT
+      - Sun, 07 Jul 2024 09:14:48 GMT
       ETag:
-      - W/"1ba4d-190786bbbeb"
+      - W/"1ba4e-19083dd1b9d"
       Last-Modified:
-      - Wed, 03 Jul 2024 11:47:24 GMT
+      - Fri, 05 Jul 2024 17:07:04 GMT
       Server:
       - nginx/1.18.0 (Ubuntu)
       Transfer-Encoding:
@@ -278,13 +280,13 @@ interactions:
       Vary:
       - Accept-Encoding
       Via:
-      - 1.1 8671c9c28d4abb06df55e1091d0f124a.cloudfront.net (CloudFront)
+      - 1.1 729d37e21e9ea52922700604dfdaf082.cloudfront.net (CloudFront)
       X-Amz-Cf-Id:
-      - m7WQwC-Uj3UmKylj8gMEDCe2Jjd61xXXZe4QMzYT10qCY4PMKkxDRg==
+      - 8WuQ4i_dvoMT9SoF0BS4yN1sardynfKqep0HUJzm3BloStA_WpTCug==
       X-Amz-Cf-Pop:
-      - LHR50-P4
+      - MXP53-P2
       X-Cache:
-      - Miss from cloudfront
+      - Hit from cloudfront
       X-Frame-Options:
       - SAMEORIGIN
     status:

@@ -1,0 +1,2074 @@
+{
+  "mockup": {
+    "controls": {
+      "control": [
+        {
+          "ID": "881",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "882",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "883",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "884",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "885",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "886",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "887",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "888",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "889",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "890",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "891",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "892",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "893",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "894",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "895",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "896",
+          "typeID": "Canvas",
+          "properties": null,
+          "children": null
+        },
+        {
+          "ID": "897",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "898",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "899",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "900",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "901",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "902",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "903",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "904",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "905",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "906",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "907",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "908",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "909",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "910",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "911",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "912",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "913",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "914",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "915",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "916",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-basics"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16776960",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Learn the Basics"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "917",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-basics:basic-syntax"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Basic Syntax"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "918",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-basics:variables-and-datatypes"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Variables and Data Types"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "919",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "105-python-basics:lists-tuples-sets-dictionaries"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Lists, Tuples, Sets, Dictionaries"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "920",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-basics:conditionals"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Conditionals"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "921",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-python-basics:typecasting-exceptions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Type Casting, Exceptions"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "922",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "104-python-basics:functions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Functions, Builtin Functions"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "923",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-data-structures-and-algorithms"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16776960",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Datastructures and Algorithms"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "924",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-data-structures-and-algorithms:arrays-linked-lists"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Arrays and Linked Lists"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "925",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-data-structures-and-algorithms:heaps-stacks-queues"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Heaps, Stacks and Queues"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "926",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-data-structures-and-algorithms:hash-tables"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Hash Tables"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "927",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-data-structures-and-algorithms:binary-search-trees"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Binary Search Trees"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "928",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "104-data-structures-and-algorithms:recursion"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Recursion"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "929",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "105-data-structures-and-algorithms:sorting-algorithms"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Sorting Algorithms"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "930",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-advanced-topics"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16776960",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Advanced Topics"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "931",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "105-python-advanced-topics:modules"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Modules"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "932",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-advanced-topics:modules:builtin-modules"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Builtin"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "933",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-advanced-topics:modules:custom-modules"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Custom"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "934",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "104-python-advanced-topics:iterators"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Iterators"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "935",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "106-python-frameworks"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16776960",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Learn a Framework"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "936",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "108-python-testing"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16776960",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Testing your Apps"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "937",
+          "typeID": "__group__",
+          "properties": null,
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "17",
+                    "text": "Find the detailed version of this roadmap"
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "17",
+                    "text": "along with resources and other roadmaps"
+                  }
+                },
+                {
+                  "ID": "3",
+                  "typeID": "__group__",
+                  "properties": {
+                    "color": null,
+                    "size": null,
+                    "text": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "938",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "ext_link:roadmap.sh/backend"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "color": "4273622",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": "16777215",
+                    "size": "17",
+                    "text": "Backend roadmap till Language Selection"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "939",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "940",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-advanced-topics:oop"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "OOP"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "941",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-advanced-topics:oop:classes"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Classes"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "942",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-advanced-topics:oop:inheritance"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Inheritance"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "943",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-advanced-topics:oop:methods-dunder"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Methods, Dunder"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "944",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-advanced-topics:decorators"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Decorators"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "945",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-advanced-topics:regular-expressions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "RegEx"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "946",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-python-advanced-topics:lambdas"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Lambdas"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "947",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "105-python-package-managers"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Package Managers"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "948",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-package-managers:pypi"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "PyPI"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "949",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-package-managers:pip"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Pip"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "950",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-package-managers:conda"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Conda"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "951",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-roadmap-note"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "18",
+                    "text": "Important Note / Click here"
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "__group__",
+                  "properties": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "952",
+          "typeID": "__group__",
+          "properties": null,
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "__group__",
+                  "properties": {
+                    "color": null,
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "__group__",
+                  "properties": {
+                    "color": null,
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "3",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "24",
+                    "text": "Related Roadmaps"
+                  }
+                },
+                {
+                  "ID": "4",
+                  "typeID": "__group__",
+                  "properties": {
+                    "color": null,
+                    "size": null,
+                    "text": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "953",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "106-python-advanced-topics:list-comprehensions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "List Comprehensions"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "954",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "107-python-advanced-topics:generator-expressions"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Generator Expressions"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "955",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "108-python-advanced-topics:paradigms"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Paradigms"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "956",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-frameworks:synchronous"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Synchronous"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "957",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-frameworks:synchronous:django"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Django"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "958",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-frameworks:synchronous:flask"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Flask"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "959",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-frameworks:synchronous:pyramid"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Pyramid"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "960",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-frameworks:asynchronous"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Asynchronous"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "961",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-frameworks:asynchronous:gevent"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "gevent"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "962",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-frameworks:asynchronous:aiohttp"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "aiohttp"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "963",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-frameworks:asynchronous:tornado"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Tornado"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "964",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-python-frameworks:asynchronous:sanic"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Sanic"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "965",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-frameworks:fastapi"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "FastAPI"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "966",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-python-testing:unittest-pyunit"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "unittest / pyUnit"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "967",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-python-testing:pytest"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "pytest"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "968",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-testing:doctest"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "doctest"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "969",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-python-testing:nose"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "nose"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "970",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "971",
+          "typeID": "TextArea",
+          "properties": null,
+          "children": null
+        },
+        {
+          "ID": "972",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "973",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "ext_link:roadmap.sh/devops"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "17",
+                    "text": "DevOps Roadmap"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "974",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "ext_link:roadmap.sh/backend"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "17",
+                    "text": "Backend Roadmap"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "975",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-python-package-managers:poetry"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "Canvas",
+                  "properties": {
+                    "color": "16770457",
+                    "size": null,
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "color": null,
+                    "size": "16",
+                    "text": "Poetry"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}
