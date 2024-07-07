@@ -14,7 +14,7 @@ logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-logger: logging.Logger = logging.getLogger(name=__name__.split(sep=".")[-1])
+logger: logging.Logger = logging.getLogger(name=__name__)
 
 
 class RoadmapExtractor:
