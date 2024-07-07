@@ -19,7 +19,7 @@ def test_download_roadmap_page(
 
 
 @pytest.mark.vcr()
-@pytest.mark.parametrize("roadmap_name", ["devops", "python"])
+@pytest.mark.parametrize("roadmap_name", ["devops", "python", "docker"])
 def test_get_roadmap(
     roadmap_name: str,
     roadmap_extractor_fixture: RoadmapExtractor,
@@ -63,7 +63,7 @@ def test_directory_structure(
 
 
 @pytest.mark.vcr()
-@pytest.mark.parametrize("roadmap_name", ["devops", "python"])
+@pytest.mark.parametrize("roadmap_name", ["devops", "python", "docker"])
 def test_handle(
     roadmap_name: str,
     roadmap_extractor_fixture: RoadmapExtractor,

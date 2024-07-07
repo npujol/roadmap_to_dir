@@ -3,133 +3,13 @@
     "controls": {
       "control": [
         {
-          "ID": "881",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "882",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "883",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "884",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "885",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "886",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "887",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "888",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "889",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "890",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "891",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "892",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "893",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "894",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "895",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "896",
+          "ID": "9408",
           "typeID": "Canvas",
           "properties": null,
           "children": null
         },
         {
-          "ID": "897",
+          "ID": "9409",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -137,7 +17,7 @@
           "children": null
         },
         {
-          "ID": "898",
+          "ID": "9410",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -145,7 +25,7 @@
           "children": null
         },
         {
-          "ID": "899",
+          "ID": "9411",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -153,7 +33,7 @@
           "children": null
         },
         {
-          "ID": "900",
+          "ID": "9412",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -161,7 +41,7 @@
           "children": null
         },
         {
-          "ID": "901",
+          "ID": "9413",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -169,7 +49,7 @@
           "children": null
         },
         {
-          "ID": "902",
+          "ID": "9414",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -177,7 +57,7 @@
           "children": null
         },
         {
-          "ID": "903",
+          "ID": "9415",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -185,7 +65,7 @@
           "children": null
         },
         {
-          "ID": "904",
+          "ID": "9416",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -193,7 +73,7 @@
           "children": null
         },
         {
-          "ID": "905",
+          "ID": "9417",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -201,7 +81,7 @@
           "children": null
         },
         {
-          "ID": "906",
+          "ID": "9418",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -209,7 +89,7 @@
           "children": null
         },
         {
-          "ID": "907",
+          "ID": "9419",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -217,7 +97,7 @@
           "children": null
         },
         {
-          "ID": "908",
+          "ID": "9420",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -225,7 +105,7 @@
           "children": null
         },
         {
-          "ID": "909",
+          "ID": "9421",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -233,7 +113,7 @@
           "children": null
         },
         {
-          "ID": "910",
+          "ID": "9422",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -241,7 +121,7 @@
           "children": null
         },
         {
-          "ID": "911",
+          "ID": "9423",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -249,7 +129,7 @@
           "children": null
         },
         {
-          "ID": "912",
+          "ID": "9424",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -257,7 +137,7 @@
           "children": null
         },
         {
-          "ID": "913",
+          "ID": "9425",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -265,7 +145,119 @@
           "children": null
         },
         {
-          "ID": "914",
+          "ID": "9426",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9427",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9428",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9429",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9430",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9431",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9432",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9433",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9434",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9435",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9436",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9437",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9438",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9439",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9440",
           "typeID": "Label",
           "properties": {
             "controlName": null
@@ -273,7 +265,42 @@
           "children": null
         },
         {
-          "ID": "915",
+          "ID": "9445",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-introduction"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Introduction"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9446",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9447",
           "typeID": "Arrow",
           "properties": {
             "controlName": null
@@ -281,17 +308,129 @@
           "children": null
         },
         {
-          "ID": "916",
+          "ID": "9448",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9449",
+          "typeID": "TextArea",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9450",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9451",
+          "typeID": "TextArea",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9452",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9453",
+          "typeID": "TextArea",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9454",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9455",
+          "typeID": "TextArea",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9456",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9457",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9458",
+          "typeID": "TextArea",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9459",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9460",
+          "typeID": "TextArea",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9461",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9462",
           "typeID": "__group__",
           "properties": {
-            "controlName": "100-python-basics"
+            "controlName": "100-introduction:what-are-containers"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -300,7 +439,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Learn the Basics"
+                    "text": "What are Containers?"
                   }
                 }
               ]
@@ -308,17 +447,17 @@
           }
         },
         {
-          "ID": "917",
+          "ID": "9463",
           "typeID": "__group__",
           "properties": {
-            "controlName": "100-python-basics:basic-syntax"
+            "controlName": "101-introduction:need-for-containers"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -327,7 +466,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Basic Syntax"
+                    "text": "Why do we need Containers?"
                   }
                 }
               ]
@@ -335,17 +474,17 @@
           }
         },
         {
-          "ID": "918",
+          "ID": "9464",
           "typeID": "__group__",
           "properties": {
-            "controlName": "101-python-basics:variables-and-datatypes"
+            "controlName": "102-introduction:bare-metal-vm-containers"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -354,7 +493,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Variables and Data Types"
+                    "text": "Bare Metal vs VMs vs Containers"
                   }
                 }
               ]
@@ -362,17 +501,17 @@
           }
         },
         {
-          "ID": "919",
+          "ID": "9465",
           "typeID": "__group__",
           "properties": {
-            "controlName": "105-python-basics:lists-tuples-sets-dictionaries"
+            "controlName": "103-introduction:docker-and-oci"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -381,7 +520,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Lists, Tuples, Sets, Dictionaries"
+                    "text": "Docker and OCI"
                   }
                 }
               ]
@@ -389,17 +528,17 @@
           }
         },
         {
-          "ID": "920",
+          "ID": "9466",
           "typeID": "__group__",
           "properties": {
-            "controlName": "102-python-basics:conditionals"
+            "controlName": "101-underlying-technologies"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -408,7 +547,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Conditionals"
+                    "text": "Underlying Technologies"
                   }
                 }
               ]
@@ -416,17 +555,17 @@
           }
         },
         {
-          "ID": "921",
+          "ID": "9473",
           "typeID": "__group__",
           "properties": {
-            "controlName": "103-python-basics:typecasting-exceptions"
+            "controlName": "100-underlying-technologies:namespaces"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -435,7 +574,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Type Casting, Exceptions"
+                    "text": "Namespaces"
                   }
                 }
               ]
@@ -443,17 +582,17 @@
           }
         },
         {
-          "ID": "922",
+          "ID": "9474",
           "typeID": "__group__",
           "properties": {
-            "controlName": "104-python-basics:functions"
+            "controlName": "101-underlying-technologies:cgroups"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -462,7 +601,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Functions, Builtin Functions"
+                    "text": "cgroups"
                   }
                 }
               ]
@@ -470,17 +609,17 @@
           }
         },
         {
-          "ID": "923",
+          "ID": "9475",
           "typeID": "__group__",
           "properties": {
-            "controlName": "101-data-structures-and-algorithms"
+            "controlName": "102-underlying-technologies:union-filesystems"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -489,7 +628,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Datastructures and Algorithms"
+                    "text": "Union Filesystems"
                   }
                 }
               ]
@@ -497,17 +636,25 @@
           }
         },
         {
-          "ID": "924",
+          "ID": "9476",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9477",
           "typeID": "__group__",
           "properties": {
-            "controlName": "100-data-structures-and-algorithms:arrays-linked-lists"
+            "controlName": "102-installation-setup"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -516,7 +663,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Arrays and Linked Lists"
+                    "text": "Installation / Setup"
                   }
                 }
               ]
@@ -524,17 +671,17 @@
           }
         },
         {
-          "ID": "925",
+          "ID": "9478",
           "typeID": "__group__",
           "properties": {
-            "controlName": "101-data-structures-and-algorithms:heaps-stacks-queues"
+            "controlName": "100-installation-setup:docker-desktop"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -543,7 +690,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Heaps, Stacks and Queues"
+                    "text": "Docker Desktop ( Win / Mac / Linux)"
                   }
                 }
               ]
@@ -551,17 +698,17 @@
           }
         },
         {
-          "ID": "926",
+          "ID": "9479",
           "typeID": "__group__",
           "properties": {
-            "controlName": "102-data-structures-and-algorithms:hash-tables"
+            "controlName": "101-installation-setup:docker-engine"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -570,7 +717,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Hash Tables"
+                    "text": "Docker Engine ( Linux )"
                   }
                 }
               ]
@@ -578,17 +725,17 @@
           }
         },
         {
-          "ID": "927",
+          "ID": "9480",
           "typeID": "__group__",
           "properties": {
-            "controlName": "103-data-structures-and-algorithms:binary-search-trees"
+            "controlName": "104-data-persistence"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -597,7 +744,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Binary Search Trees"
+                    "text": "Data Persistence"
                   }
                 }
               ]
@@ -605,17 +752,17 @@
           }
         },
         {
-          "ID": "928",
+          "ID": "9481",
           "typeID": "__group__",
           "properties": {
-            "controlName": "104-data-structures-and-algorithms:recursion"
+            "controlName": "100-data-persistence:ephemeral-container-fs"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -624,7 +771,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Recursion"
+                    "text": "Ephemeral container filesystem"
                   }
                 }
               ]
@@ -632,17 +779,17 @@
           }
         },
         {
-          "ID": "929",
+          "ID": "9482",
           "typeID": "__group__",
           "properties": {
-            "controlName": "105-data-structures-and-algorithms:sorting-algorithms"
+            "controlName": "101-data-persistence:volume-mounts"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -651,7 +798,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Sorting Algorithms"
+                    "text": "Volume Mounts"
                   }
                 }
               ]
@@ -659,17 +806,17 @@
           }
         },
         {
-          "ID": "930",
+          "ID": "9483",
           "typeID": "__group__",
           "properties": {
-            "controlName": "102-python-advanced-topics"
+            "controlName": "102-data-persistence:bind-mounts"
           },
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
-                  "typeID": "Canvas",
+                  "typeID": "TextArea",
                   "properties": {
                     "text": null
                   }
@@ -678,7 +825,7 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Advanced Topics"
+                    "text": "Bind Mounts"
                   }
                 }
               ]
@@ -686,11 +833,1086 @@
           }
         },
         {
-          "ID": "931",
+          "ID": "9484",
           "typeID": "__group__",
           "properties": {
-            "controlName": "105-python-advanced-topics:modules"
+            "controlName": "105-using-third-party-images"
           },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Using 3rd Party Container Images"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9485",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-docker-basics"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Basics of Docker"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9486",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-using-third-party-images:databases"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Databases"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9487",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-using-third-party-images:interactive-test-environments"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Interactive Test Environments"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9488",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-using-third-party-images:command-line-utilities"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Command Line Utilities"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9489",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "106-building-container-images"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Building Container Images"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9490",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-building-container-images:dockerfiles"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Dockerfiles"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9491",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-building-container-images:efficient-layer-caching"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Efficient layer caching"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9492",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-building-container-images:image-size-and-security"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Image size and security"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9493",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "107-container-registries"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Container Registries"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9494",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-container-registries:dockerhub"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Dockerhub"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9495",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-container-registries:dockerhub-alt"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Others (ghcr, ecr, gcr, act, etc)"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9496",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-container-registries:image-tagging-best-practices"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Image Tagging Best Practices"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9497",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "108-running-containers"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Running Containers"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9498",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-running-containers:docker-run"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "docker run"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9499",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-running-containers:docker-compose"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "docker compose"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9500",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-running-containers:runtime-config-options"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Runtime Configuration Options"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9501",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "109-container-security"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Container Security"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9502",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-container-security:image-security"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Image Security"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9503",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-container-security:runtime-security"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Runtime Security"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9504",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "110-docker-cli"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Docker CLI"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9505",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-docker-cli:images"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Images"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9506",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-docker-cli:containers"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Containers"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9507",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-docker-cli:volumes"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Volumes"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9508",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-docker-cli:networks"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Networks"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9509",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9510",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "111-developer-experience"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Developer Experience"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9511",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-developer-experience:hot-reloading"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Hot Reloading"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9512",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-developer-experience:debuggers"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Debuggers"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9513",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-developer-experience:tests"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Tests"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9514",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-developer-experience:continuous-integration"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Continuous Integration"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9515",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "112-deploying-containers"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Deploying Containers"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9516",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "100-deploying-containers:paas-options"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "PaaS Options"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9517",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "101-deploying-containers:kubernetes"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Kubernetes"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9518",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "102-deploying-containers:docker-swarm"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Docker Swarm"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9519",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "103-deploying-containers:nomad"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Nomad"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9520",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9521",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9522",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9523",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9524",
+          "typeID": "TextArea",
+          "properties": null,
+          "children": null
+        },
+        {
+          "ID": "9525",
+          "typeID": "Label",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9526",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "ext_link:roadmap.sh/devops"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "DevOps Roadmap"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9527",
+          "typeID": "__group__",
+          "properties": {
+            "controlName": "ext_link:roadmap.sh/backend"
+          },
+          "children": {
+            "controls": {
+              "control": [
+                {
+                  "ID": "0",
+                  "typeID": "TextArea",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "1",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "Backend Roadmap"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "ID": "9528",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9529",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9530",
+          "typeID": "Arrow",
+          "properties": {
+            "controlName": null
+          },
+          "children": null
+        },
+        {
+          "ID": "9535",
+          "typeID": "__group__",
+          "properties": null,
           "children": {
             "controls": {
               "control": [
@@ -703,7 +1925,35 @@
                   "ID": "1",
                   "typeID": "Label",
                   "properties": {
-                    "text": "Modules"
+                    "text": "Roadmap was made in partnership"
+                  }
+                },
+                {
+                  "ID": "2",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": "with"
+                  }
+                },
+                {
+                  "ID": "3",
+                  "typeID": "__group__",
+                  "properties": {
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "4",
+                  "typeID": "Label",
+                  "properties": {
+                    "text": ". Checkout his free"
+                  }
+                },
+                {
+                  "ID": "5",
+                  "typeID": "__group__",
+                  "properties": {
+                    "text": null
                   }
                 }
               ]
@@ -711,26 +1961,36 @@
           }
         },
         {
-          "ID": "932",
+          "ID": "9536",
           "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-advanced-topics:modules:builtin-modules"
-          },
+          "properties": null,
           "children": {
             "controls": {
               "control": [
                 {
                   "ID": "0",
                   "typeID": "Canvas",
+                  "properties": null
+                },
+                {
+                  "ID": "1",
+                  "typeID": "__group__",
                   "properties": {
                     "text": null
                   }
                 },
                 {
-                  "ID": "1",
-                  "typeID": "Label",
+                  "ID": "2",
+                  "typeID": "__group__",
                   "properties": {
-                    "text": "Builtin"
+                    "text": null
+                  }
+                },
+                {
+                  "ID": "3",
+                  "typeID": "__group__",
+                  "properties": {
+                    "text": null
                   }
                 }
               ]
@@ -738,115 +1998,7 @@
           }
         },
         {
-          "ID": "933",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-advanced-topics:modules:custom-modules"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Custom"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "934",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "104-python-advanced-topics:iterators"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Iterators"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "935",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "106-python-frameworks"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Learn a Framework"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "936",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "108-python-testing"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Testing your Apps"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "937",
+          "ID": "9537",
           "typeID": "__group__",
           "properties": null,
           "children": {
@@ -876,970 +2028,6 @@
                   "typeID": "__group__",
                   "properties": {
                     "text": null
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "938",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "ext_link:roadmap.sh/backend"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "TextArea",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Backend roadmap till Language Selection"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "939",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "940",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-advanced-topics:oop"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": null
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "OOP"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "941",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-advanced-topics:oop:classes"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Classes"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "942",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-advanced-topics:oop:inheritance"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Inheritance"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "943",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-advanced-topics:oop:methods-dunder"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Methods, Dunder"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "944",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-advanced-topics:decorators"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Decorators"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "945",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-advanced-topics:regular-expressions"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "RegEx"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "946",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "103-python-advanced-topics:lambdas"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Lambdas"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "947",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "105-python-package-managers"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": null
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Package Managers"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "948",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-package-managers:pypi"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "PyPI"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "949",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-package-managers:pip"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Pip"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "950",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-package-managers:conda"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Conda"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "951",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-roadmap-note"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "TextArea",
-                  "properties": null
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Important Note / Click here"
-                  }
-                },
-                {
-                  "ID": "2",
-                  "typeID": "__group__",
-                  "properties": null
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "952",
-          "typeID": "__group__",
-          "properties": null,
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": null
-                },
-                {
-                  "ID": "1",
-                  "typeID": "__group__",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "2",
-                  "typeID": "__group__",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "3",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Related Roadmaps"
-                  }
-                },
-                {
-                  "ID": "4",
-                  "typeID": "__group__",
-                  "properties": {
-                    "text": null
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "953",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "106-python-advanced-topics:list-comprehensions"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "List Comprehensions"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "954",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "107-python-advanced-topics:generator-expressions"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Generator Expressions"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "955",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "108-python-advanced-topics:paradigms"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Paradigms"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "956",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-frameworks:synchronous"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Synchronous"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "957",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-frameworks:synchronous:django"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Django"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "958",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-frameworks:synchronous:flask"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Flask"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "959",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-frameworks:synchronous:pyramid"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Pyramid"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "960",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-frameworks:asynchronous"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Asynchronous"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "961",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-frameworks:asynchronous:gevent"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "gevent"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "962",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-frameworks:asynchronous:aiohttp"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "aiohttp"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "963",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-frameworks:asynchronous:tornado"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Tornado"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "964",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "103-python-frameworks:asynchronous:sanic"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Sanic"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "965",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-frameworks:fastapi"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "FastAPI"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "966",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "100-python-testing:unittest-pyunit"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "unittest / pyUnit"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "967",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "101-python-testing:pytest"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "pytest"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "968",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-testing:doctest"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "doctest"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "969",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "102-python-testing:nose"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "nose"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "970",
-          "typeID": "Arrow",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "971",
-          "typeID": "TextArea",
-          "properties": null,
-          "children": null
-        },
-        {
-          "ID": "972",
-          "typeID": "Label",
-          "properties": {
-            "controlName": null
-          },
-          "children": null
-        },
-        {
-          "ID": "973",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "ext_link:roadmap.sh/devops"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "TextArea",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "DevOps Roadmap"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "974",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "ext_link:roadmap.sh/backend"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "TextArea",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Backend Roadmap"
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "ID": "975",
-          "typeID": "__group__",
-          "properties": {
-            "controlName": "103-python-package-managers:poetry"
-          },
-          "children": {
-            "controls": {
-              "control": [
-                {
-                  "ID": "0",
-                  "typeID": "Canvas",
-                  "properties": {
-                    "text": null
-                  }
-                },
-                {
-                  "ID": "1",
-                  "typeID": "Label",
-                  "properties": {
-                    "text": "Poetry"
                   }
                 }
               ]
