@@ -23,7 +23,9 @@ class RoadmapExtractor:
     def handle(self, roadmap_name: str, output_path: Path) -> None:
         logger.info(msg=f"Extracting roadmap {roadmap_name}.")
         roadmap: Roadmap | SubRoadmap = self.get_roadmap(name=roadmap_name)
-        data: dict[Any, Any] = roadmap.extract_topic_and_subtopics()
+        data: dict[Any, Any] = roadmap.extract_topic_and_subtopics(
+            roadmap_name=roadmap_name
+        )
         self.create_structure(data=data, base_path=output_path)
         logger.info(msg=f"Roadmap {roadmap_name} extracted.")
 

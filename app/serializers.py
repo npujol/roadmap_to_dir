@@ -10,7 +10,7 @@ logger: logging.Logger = logging.getLogger(name=__name__.split(sep=".")[-1])
 
 class RoadmapBaseModel(BaseModel):
     @abstractmethod
-    def extract_topic_and_subtopics(self) -> dict[str, list[Any]]:
+    def extract_topic_and_subtopics(self, roadmap_name: str) -> dict[str, list[Any]]:
         pass
 
 
@@ -24,8 +24,6 @@ class Properties(BaseModel):
 
 
 class Properties1(BaseModel):
-    color: Optional[str] = None
-    size: Optional[str] = None
     text: Optional[str] = None
 
 
@@ -61,13 +59,12 @@ class Mockup(BaseModel):
 class SubRoadmap(BaseModel):
     mockup: Mockup
 
-    def extract_topic_and_subtopics(self) -> dict[str, list[Any]]:
+    def extract_topic_and_subtopics(self, roadmap_name: str) -> dict[str, list[Any]]:
         result: dict[str, list[Any]] = {}
         if self.mockup.controls is None or self.mockup.controls.control is None:
             return result
 
         nodes: list[ControlItem] = self.mockup.controls.control
-        title_node: Optional[str] = None
         current_topic: Optional[str] = None
         current_subtopics: dict[str, list[str]] = {}
         for node in nodes:
@@ -83,28 +80,25 @@ class SubRoadmap(BaseModel):
                 # Topic example: 100-python-basics
                 if len(control_name_parts) == 1:
                     topic_parts: list[str] = control_name_parts[0].split(sep="-")
-                    current_topic = topic_parts[2]
+                    current_topic = topic_parts[-1]
                     if current_topic == "roadmap":
                         continue
-                    if title_node is None:
-                        title_node = topic_parts[1]
                     if current_topic not in current_subtopics.keys():
                         current_subtopics[current_topic] = []
                     # Subtopic example: 100-python-package-managers:pypi
                 elif len(control_name_parts) == 2:
-                    current_topic = control_name_parts[0].split(sep="-")[2]
+                    current_topic = control_name_parts[0].split(sep="-")[-1]
                     current_subtopic: str = control_name_parts[1]
                     if current_topic not in current_subtopics.keys():
                         current_subtopics[current_topic] = [current_subtopic]
                     else:
                         current_subtopics[current_topic].append(current_subtopic)
-        if title_node is not None:
-            logger.info(msg=f"Adding {title_node=}")
-            result[title_node] = []
+        logger.info(msg=f"Adding {roadmap_name=}")
+        result[roadmap_name] = []
 
-            for topic, subtopics in current_subtopics.items():
-                logger.info(msg=f"Adding {topic=}")
-                result[title_node].append({topic: subtopics})
+        for topic, subtopics in current_subtopics.items():
+            logger.info(msg=f"Adding {topic=}")
+            result[roadmap_name].append({topic: subtopics})
         return result
 
 
@@ -122,19 +116,17 @@ class Node(BaseModel):
 class Roadmap(BaseModel):
     nodes: list[Node]
 
-    def extract_topic_and_subtopics(self) -> dict[str, list[Any]]:
+    def extract_topic_and_subtopics(self, roadmap_name: str) -> dict[str, list[Any]]:
         current_subtopics: list[str] = []
         current_topic: Optional[str] = None
-        result: dict[str, list[Any]] = {}
-        title_node: Optional[str] = None
+        result: dict[str, list[Any]] = {roadmap_name: []}
         for node in self.nodes:
             if node.type == "title":
                 title_node = node.data.label
                 result[title_node] = []
             elif node.type == "topic":
                 if isinstance(current_topic, str):
-                    if isinstance(title_node, str):
-                        result[title_node].append({current_topic: current_subtopics})
+                    result[roadmap_name].append({current_topic: current_subtopics})
 
                 current_topic = node.data.label
                 current_subtopics = []
