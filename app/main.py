@@ -65,12 +65,20 @@ class RoadmapExtractor:
 
     def create_structure(self, data: dict[str, Any], base_path: Path) -> None:
         for title, topics in data.items():
+            related_filenames: list[str] = []
             logger.info(msg=f"Creating {title=} structure.")
             title_path: Path = self._create_directory(
                 filename=title, base_path=base_path
             )
             for content in topics:
+                for name in content.keys():
+                    related_filenames.append(name)
                 self._create_topic_structure(data=content, base_path=title_path)
+            self._create_markdown_file(
+                filename=title,
+                related_filenames=related_filenames,
+                base_path=base_path,
+            )
 
     def _create_topic_structure(self, data: dict[str, Any], base_path: Path) -> None:
         for topic, subtopics in data.items():
@@ -93,7 +101,9 @@ class RoadmapExtractor:
         related_filenames: list[str],
         base_path: Path,
     ) -> Path:
-        logger.info(msg=f"Creating {filename=} markdown file.")
+        logger.info(
+            msg=f"Creating {filename=} markdown file with content {related_filenames}."
+        )
         subtopic_path: Path = base_path / self._clean_pathname(pathname=filename)
         subtopic_path.mkdir(exist_ok=True)
         markdown_file_path: Path = (
