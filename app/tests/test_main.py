@@ -1,4 +1,5 @@
 import logging
+import re
 from pathlib import Path
 from typing import Any
 
@@ -79,4 +80,6 @@ def test_handle(
             roadmap_name=roadmap_name,
             output_path=base_path,
         )
-    assert snapshot(f"{roadmap_name}.txt") == caplog.text
+    assert snapshot(f"{roadmap_name}.txt") == re.sub(
+        pattern=r"\d+", repl="X", string=caplog.text
+    )
