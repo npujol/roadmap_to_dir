@@ -6,12 +6,15 @@ from pathlib import Path
 from typing import Any, Optional
 
 import requests
+from pydantic_core import ValidationError
+
+from app.serializers import Roadmap, SubRoadmap
 
 logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-logger: logging.Logger = logging.getLogger(name=__name__)
+logger: logging.Logger = logging.getLogger(name=__name__.split(sep=".")[-1])
 
 
 class RoadmapExtractor:
@@ -19,8 +22,10 @@ class RoadmapExtractor:
 
     def handle(self, roadmap_name: str, output_path: Path) -> None:
         logger.info(msg=f"Extracting roadmap {roadmap_name}.")
-        data: dict[Any, Any] = self.extract_topic_and_subtopics(name=roadmap_name)
+        roadmap: Roadmap | SubRoadmap = self.get_roadmap(name=roadmap_name)
+        data: dict[Any, Any] = roadmap.extract_topic_and_subtopics()
         self.create_structure(data=data, base_path=output_path)
+        logger.info(msg=f"Roadmap {roadmap_name} extracted.")
 
     def download_roadmap_page(self, name: str) -> bytes:
         url: str = self.base_url + name
@@ -30,53 +35,35 @@ class RoadmapExtractor:
         logger.debug(msg=f"The response status code is {response.status_code}.")
         return response.content
 
-    def download_roadmap_json(self, name: str) -> dict[Any, Any]:
+    def get_roadmap(self, name: str) -> Roadmap | SubRoadmap:
         url: str = self.base_url + name + ".json"
         logger.info(msg=f"Downloading roadmap json for {name} using {url} url.")
         response: requests.Response = requests.get(url=url)
         response.raise_for_status()
         logger.debug(msg=f"The response status code is {response.status_code}.")
         content_dict: dict[Any, Any] = json.loads(s=response.content)
-        return content_dict
+        return self._validate_roadmap_type(content_dict=content_dict)
 
-    def extract_topic_and_subtopics(self, name: str) -> dict[str, list[list[str]]]:
-        """
-        Extracts the topics and subtopics from the roadmap JSON.
-
-        Args:
-            name (str): The name of the roadmap.
-
-        Returns:
-            dict[str, list[list[str]]]: A dictionary where the keys are topic names
-            and the values are lists of subtopics.
-        """
-        roadmap_dict: dict[str, Any] = self.download_roadmap_json(name=name)
-        current_subtopics: list[str] = []
-        current_topic: Optional[str] = None
-        result: dict[str, list[Any]] = {}
-        title_node: Optional[str] = None
-        for node in roadmap_dict.get("nodes", []):
-            if node.get("type") == "title":
-                title_node = node["data"]["label"]
-                logger.info(msg=f"Adding title {node['data']['label']} to the result.")
-                if isinstance(title_node, str):
-                    result[title_node] = []
-            elif node["type"] == "topic":
-                if isinstance(current_topic, str):
-                    logger.info(
-                        msg=f"Adding {current_topic=} with {current_subtopics=} to result."
-                    )
-                    if isinstance(title_node, str):
-                        result[title_node].append({current_topic: current_subtopics})
-
-                current_topic = node["data"]["label"]
-                current_subtopics = []
-            elif node["type"] == "subtopic":
-                current_subtopics.append(node["data"]["label"])
-        return result
+    def _validate_roadmap_type(
+        self, content_dict: dict[Any, Any]
+    ) -> Roadmap | SubRoadmap:
+        try:
+            logger.info(msg="Checking if the content is a roadmap")
+            roadmap: Roadmap | SubRoadmap = Roadmap.model_validate(
+                obj=content_dict, strict=False
+            )
+            logger.info(msg="The content is a roadmap.")
+        except ValidationError:
+            logger.info(msg="Checking if the content is a subroadmap.")
+            roadmap: Roadmap | SubRoadmap = SubRoadmap.model_validate(
+                obj=content_dict, strict=False
+            )
+            logger.info(msg="The content is a subroadmap.")
+        return roadmap
 
     def create_structure(self, data: dict[str, Any], base_path: Path) -> None:
         for title, topics in data.items():
+            logger.info(msg=f"Creating {title=} structure.")
             title_path: Path = self._create_directory(
                 filename=title, base_path=base_path
             )
@@ -85,8 +72,10 @@ class RoadmapExtractor:
 
     def _create_topic_structure(self, data: dict[str, Any], base_path: Path) -> None:
         for topic, subtopics in data.items():
+            logger.info(msg=f"Creating {topic=} structure.")
             topic_path = self._create_directory(filename=topic, base_path=base_path)
             for subtopic in subtopics:
+                logger.info(msg=f"Creating {subtopic=} structure.")
                 topic_path: Path = base_path / self._clean_pathname(pathname=topic)
                 self._create_directory(filename=subtopic, base_path=topic_path)
                 self._create_markdown_file(
@@ -102,6 +91,7 @@ class RoadmapExtractor:
         related_filenames: list[str],
         base_path: Path,
     ) -> Path:
+        logger.info(msg=f"Creating {filename=} markdown file.")
         subtopic_path: Path = base_path / self._clean_pathname(pathname=filename)
         subtopic_path.mkdir(exist_ok=True)
         markdown_file_path: Path = (
