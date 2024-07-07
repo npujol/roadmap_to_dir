@@ -46,11 +46,11 @@
           };
 
           # Use xvfb-run to run the bot in headless mode
-          packages.bot = pkgs.writeShellScriptBin "roadmap_to_dir" ''
+          packages.roadmap_to_dir = pkgs.writeShellScriptBin "roadmap_to_dir" ''
             ${environment-variable}
             ${pkgs.lib.getExe pkgs.xvfb-run} ${packages.app}/bin/roadmap_to_dir
           '';
-
+          packages.default = packages.roadmap_to_dir;
           formatter = pkgs.alejandra;
         }
     );
