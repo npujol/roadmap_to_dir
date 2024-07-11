@@ -20,17 +20,68 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='JavaScript / Node.js' structure.
 INFO     app.main:main.py:X Creating filename='JavaScript / Node.js' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/javascript%X/%Xnode.js@QCdemtWaXmEXpoNXeqzr> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/javascript / node.js@QCdemtWaXmEXpoNXeqzr, due to X Client Error: Not Found for url: https://roadmap.sh/devops/javascript%X/%Xnode.js@QCdemtWaXmEXpoNXeqzr.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/javascript%X/%Xnode.js@QCdemtWaXmEXpoNXeqzr
 INFO     app.main:main.py:X Creating filename='Learn a Programming Language' markdown file with content ['Python', 'Ruby', 'Go', 'Rust', 'JavaScript / Node.js'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/learn%Xa%Xprogramming%Xlanguage@qeXvXVbCyydlXBKFkX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/learn a programming language@qeXvXVbCyydlXBKFkX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/learn%Xa%Xprogramming%Xlanguage@qeXvXVbCyydlXBKFkX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/learn%Xa%Xprogramming%Xlanguage@qeXvXVbCyydlXBKFkX
 INFO     app.main:main.py:X Creating topic='Operating System' structure.
 INFO     app.main:main.py:X Creating subtopic='Ubuntu / Debian' structure.
 INFO     app.main:main.py:X Creating filename='Ubuntu / Debian' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/ubuntu%X/%Xdebian@cTqVabXVbVcnXWXiXwBrX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/ubuntu / debian@cTqVabXVbVcnXWXiXwBrX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/ubuntu%X/%Xdebian@cTqVabXVbVcnXWXiXwBrX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/ubuntu%X/%Xdebian@cTqVabXVbVcnXWXiXwBrX
 INFO     app.main:main.py:X Creating subtopic='SUSE Linux' structure.
 INFO     app.main:main.py:X Creating filename='SUSE Linux' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/suse%Xlinux@zhNUKXpXtjREndkXyQZ> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/suse linux@zhNUKXpXtjREndkXyQZ, due to X Client Error: Not Found for url: https://roadmap.sh/devops/suse%Xlinux@zhNUKXpXtjREndkXyQZ.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/suse%Xlinux@zhNUKXpXtjREndkXyQZ
 INFO     app.main:main.py:X Creating subtopic='RHEL / Derivatives' structure.
 INFO     app.main:main.py:X Creating filename='RHEL / Derivatives' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/rhel%X/%Xderivatives@XmSXY_BOAHNgMXOjyFtZX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/rhel / derivatives@XmSXY_BOAHNgMXOjyFtZX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/rhel%X/%Xderivatives@XmSXY_BOAHNgMXOjyFtZX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/rhel%X/%Xderivatives@XmSXY_BOAHNgMXOjyFtZX
 INFO     app.main:main.py:X Creating subtopic='FreeBSD' structure.
 INFO     app.main:main.py:X Creating filename='FreeBSD' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/freebsd@PiPHFimToormOPlXEtEeX> from cassette
@@ -44,34 +95,127 @@ INFO     app.main:main.py:X Creating subtopic='Windows' structure.
 INFO     app.main:main.py:X Creating filename='Windows' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/windows@UOQimpXQkMXsxmFvkXdXi> from cassette
 INFO     app.main:main.py:X Creating filename='Operating System' markdown file with content ['Ubuntu / Debian', 'SUSE Linux', 'RHEL / Derivatives', 'FreeBSD', 'OpenBSD', 'NetBSD', 'Windows'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/operating%Xsystem@wjJPzrFJBNYODXSJLzWXM> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/operating system@wjJPzrFJBNYODXSJLzWXM, due to X Client Error: Not Found for url: https://roadmap.sh/devops/operating%Xsystem@wjJPzrFJBNYODXSJLzWXM.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/operating%Xsystem@wjJPzrFJBNYODXSJLzWXM
 INFO     app.main:main.py:X Creating topic='Terminal Knowledge' structure.
 INFO     app.main:main.py:X Creating subtopic='Process Monitoring' structure.
 INFO     app.main:main.py:X Creating filename='Process Monitoring' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/process%Xmonitoring@x-JWvGXiwXULLXKrQmRu> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/process monitoring@x-JWvGXiwXULLXKrQmRu, due to X Client Error: Not Found for url: https://roadmap.sh/devops/process%Xmonitoring@x-JWvGXiwXULLXKrQmRu.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/process%Xmonitoring@x-JWvGXiwXULLXKrQmRu
 INFO     app.main:main.py:X Creating subtopic='Performance Monitoring' structure.
 INFO     app.main:main.py:X Creating filename='Performance Monitoring' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/performance%Xmonitoring@gIEQDgKOsoEnSvXmpEzGH> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/performance monitoring@gIEQDgKOsoEnSvXmpEzGH, due to X Client Error: Not Found for url: https://roadmap.sh/devops/performance%Xmonitoring@gIEQDgKOsoEnSvXmpEzGH.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/performance%Xmonitoring@gIEQDgKOsoEnSvXmpEzGH
 INFO     app.main:main.py:X Creating subtopic='Networking Tools' structure.
 INFO     app.main:main.py:X Creating filename='Networking Tools' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/networking%Xtools@OaqKLZe-XnngcDhDzCtRt> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/networking tools@OaqKLZe-XnngcDhDzCtRt, due to X Client Error: Not Found for url: https://roadmap.sh/devops/networking%Xtools@OaqKLZe-XnngcDhDzCtRt.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/networking%Xtools@OaqKLZe-XnngcDhDzCtRt
 INFO     app.main:main.py:X Creating subtopic='Text Manipulation' structure.
 INFO     app.main:main.py:X Creating filename='Text Manipulation' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/text%Xmanipulation@cUifrPXvXpsTbXIZndf> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/text manipulation@cUifrPXvXpsTbXIZndf, due to X Client Error: Not Found for url: https://roadmap.sh/devops/text%Xmanipulation@cUifrPXvXpsTbXIZndf.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/text%Xmanipulation@cUifrPXvXpsTbXIZndf
 INFO     app.main:main.py:X Creating subtopic='Bash' structure.
 INFO     app.main:main.py:X Creating filename='Bash' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/bash@syBIALXmHbJLnTBoSxXIX> from cassette
 INFO     app.main:main.py:X Creating subtopic='Power Shell' structure.
 INFO     app.main:main.py:X Creating filename='Power Shell' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/power%Xshell@zXIBekRXXl-XfXWEbXNw> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/power shell@zXIBekRXXl-XfXWEbXNw, due to X Client Error: Not Found for url: https://roadmap.sh/devops/power%Xshell@zXIBekRXXl-XfXWEbXNw.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/power%Xshell@zXIBekRXXl-XfXWEbXNw
 INFO     app.main:main.py:X Creating subtopic='Vim / Nano /  Emacs' structure.
 INFO     app.main:main.py:X Creating filename='Vim / Nano /  Emacs' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/vim%X/%Xnano%X/%X%Xemacs@JtXBmtLUHXfHTXpGKoJsX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/vim / nano /  emacs@JtXBmtLUHXfHTXpGKoJsX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/vim%X/%Xnano%X/%X%Xemacs@JtXBmtLUHXfHTXpGKoJsX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/vim%X/%Xnano%X/%X%Xemacs@JtXBmtLUHXfHTXpGKoJsX
 INFO     app.main:main.py:X Creating filename='Terminal Knowledge' markdown file with content ['Process Monitoring', 'Performance Monitoring', 'Networking Tools', 'Text Manipulation', 'Bash', 'Power Shell', 'Vim / Nano /  Emacs'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/terminal%Xknowledge@LvhFmlxzXuIyXk_nzxXBv> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/terminal knowledge@LvhFmlxzXuIyXk_nzxXBv, due to X Client Error: Not Found for url: https://roadmap.sh/devops/terminal%Xknowledge@LvhFmlxzXuIyXk_nzxXBv.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/terminal%Xknowledge@LvhFmlxzXuIyXk_nzxXBv
 INFO     app.main:main.py:X Creating topic='Version Control Systems' structure.
 INFO     app.main:main.py:X Creating subtopic='Git' structure.
 INFO     app.main:main.py:X Creating filename='Git' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/git@uyDmXSpOQdpHjqXzBAdck> from cassette
 INFO     app.main:main.py:X Creating filename='Version Control Systems' markdown file with content ['Git'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/version%Xcontrol%Xsystems@hXBHXOybHcINXiDTSGkn> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/version control systems@hXBHXOybHcINXiDTSGkn, due to X Client Error: Not Found for url: https://roadmap.sh/devops/version%Xcontrol%Xsystems@hXBHXOybHcINXiDTSGkn.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/version%Xcontrol%Xsystems@hXBHXOybHcINXiDTSGkn
 INFO     app.main:main.py:X Creating topic='VCS Hosting' structure.
 INFO     app.main:main.py:X Creating subtopic='GitHub' structure.
 INFO     app.main:main.py:X Creating filename='GitHub' markdown file with content [].
@@ -83,10 +227,31 @@ INFO     app.main:main.py:X Creating subtopic='Bitbucket' structure.
 INFO     app.main:main.py:X Creating filename='Bitbucket' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/bitbucket@ZXSsBWgluZWrXiWbXeXXO> from cassette
 INFO     app.main:main.py:X Creating filename='VCS Hosting' markdown file with content ['GitHub', 'GitLab', 'Bitbucket'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/vcs%Xhosting@jCWrnQNgjHKyhzdXdwOHz> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/vcs hosting@jCWrnQNgjHKyhzdXdwOHz, due to X Client Error: Not Found for url: https://roadmap.sh/devops/vcs%Xhosting@jCWrnQNgjHKyhzdXdwOHz.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/vcs%Xhosting@jCWrnQNgjHKyhzdXdwOHz
 INFO     app.main:main.py:X Creating topic='What is and how to setup X ?' structure.
 INFO     app.main:main.py:X Creating subtopic='Forward Proxy' structure.
 INFO     app.main:main.py:X Creating filename='Forward Proxy' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/forward%Xproxy@FXXnRjXBLswJkzyRggLS> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/forward proxy@FXXnRjXBLswJkzyRggLS, due to X Client Error: Not Found for url: https://roadmap.sh/devops/forward%Xproxy@FXXnRjXBLswJkzyRggLS.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/forward%Xproxy@FXXnRjXBLswJkzyRggLS
 INFO     app.main:main.py:X Creating subtopic='Firewall' structure.
 INFO     app.main:main.py:X Creating filename='Firewall' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/firewall@fXtMXuoXLLSOmyeFfLcXh> from cassette
@@ -108,13 +273,54 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Caching Server' structure.
 INFO     app.main:main.py:X Creating filename='Caching Server' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/caching%Xserver@RXXSYXTSjUXMXcWXzUqJ> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/caching server@RXXSYXTSjUXMXcWXzUqJ, due to X Client Error: Not Found for url: https://roadmap.sh/devops/caching%Xserver@RXXSYXTSjUXMXcWXzUqJ.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/caching%Xserver@RXXSYXTSjUXMXcWXzUqJ
 INFO     app.main:main.py:X Creating subtopic='Load Balancer' structure.
 INFO     app.main:main.py:X Creating filename='Load Balancer' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/load%Xbalancer@iXSdXmaB_BeFurULrHXNq> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/load balancer@iXSdXmaB_BeFurULrHXNq, due to X Client Error: Not Found for url: https://roadmap.sh/devops/load%Xbalancer@iXSdXmaB_BeFurULrHXNq.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/load%Xbalancer@iXSdXmaB_BeFurULrHXNq
 INFO     app.main:main.py:X Creating subtopic='Reverse Proxy' structure.
 INFO     app.main:main.py:X Creating filename='Reverse Proxy' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/reverse%Xproxy@eGFXiyiglXmyxXejpmNC> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/reverse proxy@eGFXiyiglXmyxXejpmNC, due to X Client Error: Not Found for url: https://roadmap.sh/devops/reverse%Xproxy@eGFXiyiglXmyxXejpmNC.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/reverse%Xproxy@eGFXiyiglXmyxXejpmNC
 INFO     app.main:main.py:X Creating filename='What is and how to setup X ?' markdown file with content ['Forward Proxy', 'Firewall', 'Nginx', 'Tomcat', 'Apache', 'Caddy', 'IIS', 'Caching Server', 'Load Balancer', 'Reverse Proxy'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/what%Xis%Xand%Xhow%Xto%Xsetup%Xx%X?@CQhUflAcvXlhBnmDYXgaz> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/what is and how to setup x ?@CQhUflAcvXlhBnmDYXgaz, due to X Client Error: Not Found for url: https://roadmap.sh/devops/what%Xis%Xand%Xhow%Xto%Xsetup%Xx%X?@CQhUflAcvXlhBnmDYXgaz.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/what%Xis%Xand%Xhow%Xto%Xsetup%Xx%X?@CQhUflAcvXlhBnmDYXgaz
 INFO     app.main:main.py:X Creating topic='Containers' structure.
 INFO     app.main:main.py:X Creating subtopic='Docker' structure.
 INFO     app.main:main.py:X Creating filename='Docker' markdown file with content [].
@@ -123,6 +329,17 @@ INFO     app.main:main.py:X Creating subtopic='LXC' structure.
 INFO     app.main:main.py:X Creating filename='LXC' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/lxc@qYRJYIZsmf-inMqKECRkI> from cassette
 INFO     app.main:main.py:X Creating filename='Containers' markdown file with content ['Docker', 'LXC'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/containers@XWdXSlWGgXQtxgiUVLyZL> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/containers@XWdXSlWGgXQtxgiUVLyZL, due to X Client Error: Not Found for url: https://roadmap.sh/devops/containers@XWdXSlWGgXQtxgiUVLyZL.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/containers@XWdXSlWGgXQtxgiUVLyZL
 INFO     app.main:main.py:X Creating topic='Cloud Providers' structure.
 INFO     app.main:main.py:X Creating subtopic='AWS' structure.
 INFO     app.main:main.py:X Creating filename='AWS' markdown file with content [].
@@ -133,24 +350,74 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Google Cloud' structure.
 INFO     app.main:main.py:X Creating filename='Google Cloud' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/google%Xcloud@zYrOxFQklXKSeXfhXsmD> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/google cloud@zYrOxFQklXKSeXfhXsmD, due to X Client Error: Not Found for url: https://roadmap.sh/devops/google%Xcloud@zYrOxFQklXKSeXfhXsmD.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/google%Xcloud@zYrOxFQklXKSeXfhXsmD
 INFO     app.main:main.py:X Creating subtopic='Digital Ocean' structure.
 INFO     app.main:main.py:X Creating filename='Digital Ocean' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/digital%Xocean@-h-kNVDNzZYnQAR_XlfXc> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/digital ocean@-h-kNVDNzZYnQAR_XlfXc, due to X Client Error: Not Found for url: https://roadmap.sh/devops/digital%Xocean@-h-kNVDNzZYnQAR_XlfXc.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/digital%Xocean@-h-kNVDNzZYnQAR_XlfXc
 INFO     app.main:main.py:X Creating subtopic='Alibaba Cloud' structure.
 INFO     app.main:main.py:X Creating filename='Alibaba Cloud' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/alibaba%Xcloud@YUJf-XccHvYjL_RzufQ-G> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/alibaba cloud@YUJf-XccHvYjL_RzufQ-G, due to X Client Error: Not Found for url: https://roadmap.sh/devops/alibaba%Xcloud@YUJf-XccHvYjL_RzufQ-G.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/alibaba%Xcloud@YUJf-XccHvYjL_RzufQ-G
 INFO     app.main:main.py:X Creating subtopic='Hetzner' structure.
 INFO     app.main:main.py:X Creating filename='Hetzner' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/hetzner@IXqPYGMcdayRRXWTXEk> from cassette
 INFO     app.main:main.py:X Creating subtopic='Heroku ' structure.
 INFO     app.main:main.py:X Creating filename='Heroku ' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/heroku%X@FaPfXJGRAgXMBlFjXTk> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/heroku @FaPfXJGRAgXMBlFjXTk, due to X Client Error: Not Found for url: https://roadmap.sh/devops/heroku%X@FaPfXJGRAgXMBlFjXTk.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/heroku%X@FaPfXJGRAgXMBlFjXTk
 INFO     app.main:main.py:X Creating subtopic='Contabo' structure.
 INFO     app.main:main.py:X Creating filename='Contabo' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/contabo@eJZdjheptmiwKsVoktXIo> from cassette
 INFO     app.main:main.py:X Creating subtopic='FTP / SFTP' structure.
 INFO     app.main:main.py:X Creating filename='FTP / SFTP' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/ftp%X/%Xsftp@RDLmML_HSXcXJXD_U_KYe> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/ftp / sftp@RDLmML_HSXcXJXD_U_KYe, due to X Client Error: Not Found for url: https://roadmap.sh/devops/ftp%X/%Xsftp@RDLmML_HSXcXJXD_U_KYe.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/ftp%X/%Xsftp@RDLmML_HSXcXJXD_U_KYe
 INFO     app.main:main.py:X Creating subtopic='DNS' structure.
 INFO     app.main:main.py:X Creating filename='DNS' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/dns@VuXvdsYerCGXGXsuqml> from cassette
@@ -163,12 +430,32 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='SSL / TLS' structure.
 INFO     app.main:main.py:X Creating filename='SSL / TLS' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/ssl%X/%Xtls@XoXejhfpmOXSXAXdjVWva> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/ssl / tls@XoXejhfpmOXSXAXdjVWva, due to X Client Error: Not Found for url: https://roadmap.sh/devops/ssl%X/%Xtls@XoXejhfpmOXSXAXdjVWva.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/ssl%X/%Xtls@XoXejhfpmOXSXAXdjVWva
 INFO     app.main:main.py:X Creating subtopic='SSH' structure.
 INFO     app.main:main.py:X Creating filename='SSH' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/ssh@wcIRMLVmXSdEJWFXRPfnX> from cassette
 INFO     app.main:main.py:X Creating subtopic='White / Grey Listing' structure.
 INFO     app.main:main.py:X Creating filename='White / Grey Listing' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/white%X/%Xgrey%Xlisting@E-lSLGzgOPrz-XERXHkX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/white / grey listing@E-lSLGzgOPrz-XERXHkX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/white%X/%Xgrey%Xlisting@E-lSLGzgOPrz-XERXHkX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/white%X/%Xgrey%Xlisting@E-lSLGzgOPrz-XERXHkX
 INFO     app.main:main.py:X Creating subtopic='SMTP' structure.
 INFO     app.main:main.py:X Creating filename='SMTP' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/smtp@zJyXdOynWgLTDKIXiBluG> from cassette
@@ -187,12 +474,54 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Domain Keys' structure.
 INFO     app.main:main.py:X Creating filename='Domain Keys' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/domain%Xkeys@RYCDXmsIRXBPJoIPXaj> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/domain keys@RYCDXmsIRXBPJoIPXaj, due to X Client Error: Not Found for url: https://roadmap.sh/devops/domain%Xkeys@RYCDXmsIRXBPJoIPXaj.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/domain%Xkeys@RYCDXmsIRXBPJoIPXaj
 INFO     app.main:main.py:X Creating subtopic='OSI Model' structure.
 INFO     app.main:main.py:X Creating filename='OSI Model' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/osi%Xmodel@QZXbkY-MaEgxYoPDPXnma> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/osi model@QZXbkY-MaEgxYoPDPXnma, due to X Client Error: Not Found for url: https://roadmap.sh/devops/osi%Xmodel@QZXbkY-MaEgxYoPDPXnma.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/osi%Xmodel@QZXbkY-MaEgxYoPDPXnma
 INFO     app.main:main.py:X Creating filename='Cloud Providers' markdown file with content ['AWS', 'Azure', 'Google Cloud', 'Digital Ocean', 'Alibaba Cloud', 'Hetzner', 'Heroku ', 'Contabo', 'FTP / SFTP', 'DNS', 'HTTP', 'HTTPS', 'SSL / TLS', 'SSH', 'White / Grey Listing', 'SMTP', 'DMARC', 'IMAPS', 'SPF', 'POPXS', 'Domain Keys', 'OSI Model'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/cloud%Xproviders@wXdXSfXGDkLDLGUPxzSX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/cloud providers@wXdXSfXGDkLDLGUPxzSX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xproviders@wXdXSfXGDkLDLGUPxzSX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xproviders@wXdXSfXGDkLDLGUPxzSX
 INFO     app.main:main.py:X Creating topic='Networking & Protocols' structure.
 INFO     app.main:main.py:X Creating filename='Networking & Protocols' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/networking%X&%Xprotocols@Xp_ufPjXQHXgHbWBQUmGw> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/networking & protocols@Xp_ufPjXQHXgHbWBQUmGw, due to X Client Error: Not Found for url: https://roadmap.sh/devops/networking%X&%Xprotocols@Xp_ufPjXQHXgHbWBQUmGw.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/networking%X&%Xprotocols@Xp_ufPjXQHXgHbWBQUmGw
 INFO     app.main:main.py:X Creating topic='Serverless' structure.
 INFO     app.main:main.py:X Creating subtopic='Vercel' structure.
 INFO     app.main:main.py:X Creating filename='Vercel' markdown file with content [].
@@ -203,17 +532,58 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Azure Functions' structure.
 INFO     app.main:main.py:X Creating filename='Azure Functions' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/azure%Xfunctions@mlrlfXMcMIXIBhyEdqXNf> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/azure functions@mlrlfXMcMIXIBhyEdqXNf, due to X Client Error: Not Found for url: https://roadmap.sh/devops/azure%Xfunctions@mlrlfXMcMIXIBhyEdqXNf.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/azure%Xfunctions@mlrlfXMcMIXIBhyEdqXNf
 INFO     app.main:main.py:X Creating subtopic='AWS Lambda' structure.
 INFO     app.main:main.py:X Creating filename='AWS Lambda' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/aws%Xlambda@UfQrIJ-uMNJtXH_VM_QXq> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/aws lambda@UfQrIJ-uMNJtXH_VM_QXq, due to X Client Error: Not Found for url: https://roadmap.sh/devops/aws%Xlambda@UfQrIJ-uMNJtXH_VM_QXq.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/aws%Xlambda@UfQrIJ-uMNJtXH_VM_QXq
 INFO     app.main:main.py:X Creating subtopic='Netlify' structure.
 INFO     app.main:main.py:X Creating filename='Netlify' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/netlify@hCKODVXb_lXuPitXYePXM> from cassette
 INFO     app.main:main.py:X Creating filename='Serverless' markdown file with content ['Vercel', 'Cloudflare', 'Azure Functions', 'AWS Lambda', 'Netlify'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/serverless@XoYvpFGXLKTXJDXa_XJXm> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/serverless@XoYvpFGXLKTXJDXa_XJXm, due to X Client Error: Not Found for url: https://roadmap.sh/devops/serverless@XoYvpFGXLKTXJDXa_XJXm.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/serverless@XoYvpFGXLKTXJDXa_XJXm
 INFO     app.main:main.py:X Creating topic='Provisioning' structure.
 INFO     app.main:main.py:X Creating subtopic='AWS CDK' structure.
 INFO     app.main:main.py:X Creating filename='AWS CDK' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/aws%Xcdk@XA__XKgofsHXcoQ-ma> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/aws cdk@XA__XKgofsHXcoQ-ma, due to X Client Error: Not Found for url: https://roadmap.sh/devops/aws%Xcdk@XA__XKgofsHXcoQ-ma.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/aws%Xcdk@XA__XKgofsHXcoQ-ma
 INFO     app.main:main.py:X Creating subtopic='CloudFormation' structure.
 INFO     app.main:main.py:X Creating filename='CloudFormation' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/cloudformation@TgBbXaL_XUkyUXCNXqvS> from cassette
@@ -224,6 +594,17 @@ INFO     app.main:main.py:X Creating subtopic='Terraform' structure.
 INFO     app.main:main.py:X Creating filename='Terraform' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/terraform@nUBGfXrpXGK_pbagWCPXg> from cassette
 INFO     app.main:main.py:X Creating filename='Provisioning' markdown file with content ['AWS CDK', 'CloudFormation', 'Pulumi', 'Terraform'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/provisioning@VXsOxlNOyRpXMghlXzudv> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/provisioning@VXsOxlNOyRpXMghlXzudv, due to X Client Error: Not Found for url: https://roadmap.sh/devops/provisioning@VXsOxlNOyRpXMghlXzudv.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/provisioning@VXsOxlNOyRpXMghlXzudv
 INFO     app.main:main.py:X Creating topic='Configuration Management' structure.
 INFO     app.main:main.py:X Creating subtopic='Ansible' structure.
 INFO     app.main:main.py:X Creating filename='Ansible' markdown file with content [].
@@ -235,22 +616,73 @@ INFO     app.main:main.py:X Creating subtopic='Puppet' structure.
 INFO     app.main:main.py:X Creating filename='Puppet' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/puppet@yPXyXUXeblpzbaLiCGliU> from cassette
 INFO     app.main:main.py:X Creating filename='Configuration Management' markdown file with content ['Ansible', 'Chef', 'Puppet'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/configuration%Xmanagement@aQJaouIaxIJChM-XMXHQ> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/configuration management@aQJaouIaxIJChM-XMXHQ, due to X Client Error: Not Found for url: https://roadmap.sh/devops/configuration%Xmanagement@aQJaouIaxIJChM-XMXHQ.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/configuration%Xmanagement@aQJaouIaxIJChM-XMXHQ
 INFO     app.main:main.py:X Creating topic='CI / CD Tools' structure.
 INFO     app.main:main.py:X Creating subtopic='GitHub Actions' structure.
 INFO     app.main:main.py:X Creating filename='GitHub Actions' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/github%Xactions@JnWVCSXHbAyfCJzGt-WOH> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/github actions@JnWVCSXHbAyfCJzGt-WOH, due to X Client Error: Not Found for url: https://roadmap.sh/devops/github%Xactions@JnWVCSXHbAyfCJzGt-WOH.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/github%Xactions@JnWVCSXHbAyfCJzGt-WOH
 INFO     app.main:main.py:X Creating subtopic='GitLab CI' structure.
 INFO     app.main:main.py:X Creating filename='GitLab CI' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/gitlab%Xci@XKjSLLVTvlXGXKValwXSX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/gitlab ci@XKjSLLVTvlXGXKValwXSX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/gitlab%Xci@XKjSLLVTvlXGXKValwXSX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/gitlab%Xci@XKjSLLVTvlXGXKValwXSX
 INFO     app.main:main.py:X Creating subtopic='Jenkins' structure.
 INFO     app.main:main.py:X Creating filename='Jenkins' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/jenkins@dUapFpXfXRum-rf_Vk_b-> from cassette
 INFO     app.main:main.py:X Creating subtopic='Travis CI' structure.
 INFO     app.main:main.py:X Creating filename='Travis CI' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/travis%Xci@-pGFXsoruWWxwEXLxEXVk> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/travis ci@-pGFXsoruWWxwEXLxEXVk, due to X Client Error: Not Found for url: https://roadmap.sh/devops/travis%Xci@-pGFXsoruWWxwEXLxEXVk.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/travis%Xci@-pGFXsoruWWxwEXLxEXVk
 INFO     app.main:main.py:X Creating subtopic='Circle CI' structure.
 INFO     app.main:main.py:X Creating filename='Circle CI' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/circle%Xci@X-JneOQeGhox-CKrdiquq> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/circle ci@X-JneOQeGhox-CKrdiquq, due to X Client Error: Not Found for url: https://roadmap.sh/devops/circle%Xci@X-JneOQeGhox-CKrdiquq.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/circle%Xci@X-JneOQeGhox-CKrdiquq
 INFO     app.main:main.py:X Creating subtopic='Drone' structure.
 INFO     app.main:main.py:X Creating filename='Drone' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/drone@TsXFxXwWikVBVoFUUDAMx> from cassette
@@ -258,13 +690,44 @@ INFO     app.main:main.py:X Creating subtopic='TeamCity' structure.
 INFO     app.main:main.py:X Creating filename='TeamCity' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/teamcity@LXAbzFXoLcnXBXeUIYX> from cassette
 INFO     app.main:main.py:X Creating filename='CI / CD Tools' markdown file with content ['GitHub Actions', 'GitLab CI', 'Jenkins', 'Travis CI', 'Circle CI', 'Drone', 'TeamCity'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/ci%X/%Xcd%Xtools@hcrPpjFxPi_iLiMdLKJrO> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/ci / cd tools@hcrPpjFxPi_iLiMdLKJrO, due to X Client Error: Not Found for url: https://roadmap.sh/devops/ci%X/%Xcd%Xtools@hcrPpjFxPi_iLiMdLKJrO.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/ci%X/%Xcd%Xtools@hcrPpjFxPi_iLiMdLKJrO
 INFO     app.main:main.py:X Creating topic='Secret Management' structure.
 INFO     app.main:main.py:X Creating subtopic='Sealed Secrets' structure.
 INFO     app.main:main.py:X Creating filename='Sealed Secrets' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/sealed%Xsecrets@ZWqXQXZNxLNtiXoltxA> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/sealed secrets@ZWqXQXZNxLNtiXoltxA, due to X Client Error: Not Found for url: https://roadmap.sh/devops/sealed%Xsecrets@ZWqXQXZNxLNtiXoltxA.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/sealed%Xsecrets@ZWqXQXZNxLNtiXoltxA
 INFO     app.main:main.py:X Creating subtopic='Cloud Specific Tools' structure.
 INFO     app.main:main.py:X Creating filename='Cloud Specific Tools' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/cloud%Xspecific%Xtools@yQXdXuiROZYrXcjYnQE> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/cloud specific tools@yQXdXuiROZYrXcjYnQE, due to X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xspecific%Xtools@yQXdXuiROZYrXcjYnQE.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xspecific%Xtools@yQXdXuiROZYrXcjYnQE
 INFO     app.main:main.py:X Creating subtopic='Vault' structure.
 INFO     app.main:main.py:X Creating filename='Vault' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/vault@tZzvsXKzqTXaDvEyjack> from cassette
@@ -272,6 +735,17 @@ INFO     app.main:main.py:X Creating subtopic='SOPs' structure.
 INFO     app.main:main.py:X Creating filename='SOPs' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/sops@GHQWHLxsOXkJXz_YCinJ> from cassette
 INFO     app.main:main.py:X Creating filename='Secret Management' markdown file with content ['Sealed Secrets', 'Cloud Specific Tools', 'Vault', 'SOPs'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/secret%Xmanagement@qqRLeTpuoWXHXLvYXU_w> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/secret management@qqRLeTpuoWXHXLvYXU_w, due to X Client Error: Not Found for url: https://roadmap.sh/devops/secret%Xmanagement@qqRLeTpuoWXHXLvYXU_w.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/secret%Xmanagement@qqRLeTpuoWXHXLvYXU_w
 INFO     app.main:main.py:X Creating topic='Infrastructure Monitoring' structure.
 INFO     app.main:main.py:X Creating subtopic='Zabbix' structure.
 INFO     app.main:main.py:X Creating filename='Zabbix' markdown file with content [].
@@ -279,6 +753,16 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Prometheus' structure.
 INFO     app.main:main.py:X Creating filename='Prometheus' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/prometheus@NiVvRbCOCDpVvifXpoCo> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/prometheus@NiVvRbCOCDpVvifXpoCo, due to X Client Error: Not Found for url: https://roadmap.sh/devops/prometheus@NiVvRbCOCDpVvifXpoCo.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/prometheus@NiVvRbCOCDpVvifXpoCo
 INFO     app.main:main.py:X Creating subtopic='Datadog' structure.
 INFO     app.main:main.py:X Creating filename='Datadog' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/datadog@bujq_C-ejtpmk-ICALByy> from cassette
@@ -286,10 +770,31 @@ INFO     app.main:main.py:X Creating subtopic='Grafana' structure.
 INFO     app.main:main.py:X Creating filename='Grafana' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/grafana@niA_XyRXuQXscXS_OStf> from cassette
 INFO     app.main:main.py:X Creating filename='Infrastructure Monitoring' markdown file with content ['Zabbix', 'Prometheus', 'Datadog', 'Grafana'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/infrastructure%Xmonitoring@gaoZjOYmUXJXaMXvtLNvN> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/infrastructure monitoring@gaoZjOYmUXJXaMXvtLNvN, due to X Client Error: Not Found for url: https://roadmap.sh/devops/infrastructure%Xmonitoring@gaoZjOYmUXJXaMXvtLNvN.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/infrastructure%Xmonitoring@gaoZjOYmUXJXaMXvtLNvN
 INFO     app.main:main.py:X Creating topic='Logs Management' structure.
 INFO     app.main:main.py:X Creating subtopic='Elastic Stack' structure.
 INFO     app.main:main.py:X Creating filename='Elastic Stack' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/elastic%Xstack@K_qLhKXkKN_uCqXiVjqph> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/elastic stack@K_qLhKXkKN_uCqXiVjqph, due to X Client Error: Not Found for url: https://roadmap.sh/devops/elastic%Xstack@K_qLhKXkKN_uCqXiVjqph.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/elastic%Xstack@K_qLhKXkKN_uCqXiVjqph
 INFO     app.main:main.py:X Creating subtopic='Graylog' structure.
 INFO     app.main:main.py:X Creating filename='Graylog' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/graylog@s_kssXFJXKyZRdcKNHKXv> from cassette
@@ -300,17 +805,69 @@ INFO     app.main:main.py:X Creating subtopic='Papertrail' structure.
 INFO     app.main:main.py:X Creating filename='Papertrail' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/papertrail@cjjMZdyLgakyVkImVQTza> from cassette
 INFO     app.main:main.py:X Creating filename='Logs Management' markdown file with content ['Elastic Stack', 'Graylog', 'Splunk', 'Papertrail'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/logs%Xmanagement@YqXkVoRfXaL_oXVZUX--> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/logs management@YqXkVoRfXaL_oXVZUX--, due to X Client Error: Not Found for url: https://roadmap.sh/devops/logs%Xmanagement@YqXkVoRfXaL_oXVZUX--.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/logs%Xmanagement@YqXkVoRfXaL_oXVZUX--
 INFO     app.main:main.py:X Creating topic='Container Orchestration' structure.
 INFO     app.main:main.py:X Creating subtopic='GKE / EKS / AKS' structure.
 INFO     app.main:main.py:X Creating filename='GKE / EKS / AKS' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/gke%X/%Xeks%X/%Xaks@XbrWlTyHXzXcrSHkkiXlp> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/gke / eks / aks@XbrWlTyHXzXcrSHkkiXlp, due to X Client Error: Not Found for url: https://roadmap.sh/devops/gke%X/%Xeks%X/%Xaks@XbrWlTyHXzXcrSHkkiXlp.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/gke%X/%Xeks%X/%Xaks@XbrWlTyHXzXcrSHkkiXlp
 INFO     app.main:main.py:X Creating subtopic='AWS ECS / Fargate' structure.
 INFO     app.main:main.py:X Creating filename='AWS ECS / Fargate' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/aws%Xecs%X/%Xfargate@FEXh-uQyXqliXrKERciXj> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/aws ecs / fargate@FEXh-uQyXqliXrKERciXj, due to X Client Error: Not Found for url: https://roadmap.sh/devops/aws%Xecs%X/%Xfargate@FEXh-uQyXqliXrKERciXj.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/aws%Xecs%X/%Xfargate@FEXh-uQyXqliXrKERciXj
 INFO     app.main:main.py:X Creating subtopic='Docker Swarm' structure.
 INFO     app.main:main.py:X Creating filename='Docker Swarm' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/docker%Xswarm@VDXHCXqJOCXlbpJ-swC> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/docker swarm@VDXHCXqJOCXlbpJ-swC, due to X Client Error: Not Found for url: https://roadmap.sh/devops/docker%Xswarm@VDXHCXqJOCXlbpJ-swC.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/docker%Xswarm@VDXHCXqJOCXlbpJ-swC
 INFO     app.main:main.py:X Creating filename='Container Orchestration' markdown file with content ['GKE / EKS / AKS', 'AWS ECS / Fargate', 'Docker Swarm'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/container%Xorchestration@zuBAjrqQPjj-XDHGjCaqT> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/container orchestration@zuBAjrqQPjj-XDHGjCaqT, due to X Client Error: Not Found for url: https://roadmap.sh/devops/container%Xorchestration@zuBAjrqQPjj-XDHGjCaqT.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/container%Xorchestration@zuBAjrqQPjj-XDHGjCaqT
 INFO     app.main:main.py:X Creating topic='Artifact Management' structure.
 INFO     app.main:main.py:X Creating subtopic='Artifactory' structure.
 INFO     app.main:main.py:X Creating filename='Artifactory' markdown file with content [].
@@ -321,7 +878,28 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Cloud Smith' structure.
 INFO     app.main:main.py:X Creating filename='Cloud Smith' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/cloud%Xsmith@vsmEXEpCcXDFGkXYTbkHS> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/cloud smith@vsmEXEpCcXDFGkXYTbkHS, due to X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xsmith@vsmEXEpCcXDFGkXYTbkHS.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xsmith@vsmEXEpCcXDFGkXYTbkHS
 INFO     app.main:main.py:X Creating filename='Artifact Management' markdown file with content ['Artifactory', 'Nexus', 'Cloud Smith'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/artifact%Xmanagement@-INNXqTMLimrZgaSPCcHj> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/artifact management@-INNXqTMLimrZgaSPCcHj, due to X Client Error: Not Found for url: https://roadmap.sh/devops/artifact%Xmanagement@-INNXqTMLimrZgaSPCcHj.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/artifact%Xmanagement@-INNXqTMLimrZgaSPCcHj
 INFO     app.main:main.py:X Creating topic='GitOps' structure.
 INFO     app.main:main.py:X Creating subtopic='ArgoCD' structure.
 INFO     app.main:main.py:X Creating filename='ArgoCD' markdown file with content [].
@@ -330,6 +908,17 @@ INFO     app.main:main.py:X Creating subtopic='FluxCD' structure.
 INFO     app.main:main.py:X Creating filename='FluxCD' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/fluxcd@XgVV_JUgKgwJbXCXtHZnX> from cassette
 INFO     app.main:main.py:X Creating filename='GitOps' markdown file with content ['ArgoCD', 'FluxCD'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/gitops@EeWsihHXehbFKebYoBXiX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/gitops@EeWsihHXehbFKebYoBXiX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/gitops@EeWsihHXehbFKebYoBXiX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/gitops@EeWsihHXehbFKebYoBXiX
 INFO     app.main:main.py:X Creating topic='Service Mesh' structure.
 INFO     app.main:main.py:X Creating subtopic='Istio' structure.
 INFO     app.main:main.py:X Creating filename='Istio' markdown file with content [].
@@ -344,6 +933,17 @@ INFO     app.main:main.py:X Creating subtopic='Envoy' structure.
 INFO     app.main:main.py:X Creating filename='Envoy' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/envoy@epLLYArRXHlhASXcXbX> from cassette
 INFO     app.main:main.py:X Creating filename='Service Mesh' markdown file with content ['Istio', 'Consul', 'Linkerd', 'Envoy'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/service%Xmesh@QcXMGRXbMGXeeMXZbXPMk> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/service mesh@QcXMGRXbMGXeeMXZbXPMk, due to X Client Error: Not Found for url: https://roadmap.sh/devops/service%Xmesh@QcXMGRXbMGXeeMXZbXPMk.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/service%Xmesh@QcXMGRXbMGXeeMXZbXPMk
 INFO     app.main:main.py:X Creating topic='Cloud Design Patterns' structure.
 INFO     app.main:main.py:X Creating subtopic='Availability' structure.
 INFO     app.main:main.py:X Creating filename='Availability' markdown file with content [].
@@ -351,12 +951,42 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='Data Management' structure.
 INFO     app.main:main.py:X Creating filename='Data Management' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/data%Xmanagement@XFNXivaXDW_lv-rXtijdX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/data management@XFNXivaXDW_lv-rXtijdX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/data%Xmanagement@XFNXivaXDW_lv-rXtijdX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/data%Xmanagement@XFNXivaXDW_lv-rXtijdX
 INFO     app.main:main.py:X Creating subtopic='Design and Implementation' structure.
 INFO     app.main:main.py:X Creating filename='Design and Implementation' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/design%Xand%Ximplementation@X_NRXjckZXFXEtEmgixqz> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/design and implementation@X_NRXjckZXFXEtEmgixqz, due to X Client Error: Not Found for url: https://roadmap.sh/devops/design%Xand%Ximplementation@X_NRXjckZXFXEtEmgixqz.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/design%Xand%Ximplementation@X_NRXjckZXFXEtEmgixqz
 INFO     app.main:main.py:X Creating subtopic='Management and Monitoring' structure.
 INFO     app.main:main.py:X Creating filename='Management and Monitoring' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/management%Xand%Xmonitoring@XkbyXepyullSXWXuKDrs> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/management and monitoring@XkbyXepyullSXWXuKDrs, due to X Client Error: Not Found for url: https://roadmap.sh/devops/management%Xand%Xmonitoring@XkbyXepyullSXWXuKDrs.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/management%Xand%Xmonitoring@XkbyXepyullSXWXuKDrs
 INFO     app.main:main.py:X Creating subtopic='Loki' structure.
 INFO     app.main:main.py:X Creating filename='Loki' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/loki@wXeCgBC-ydMHSxhXLMtiX> from cassette
@@ -366,7 +996,28 @@ INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roa
 INFO     app.main:main.py:X Creating subtopic='GCP Functions' structure.
 INFO     app.main:main.py:X Creating filename='GCP Functions' markdown file with content [].
 INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/gcp%Xfunctions@JXsctlXUUSXieXnNEgIkX> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/gcp functions@JXsctlXUUSXieXnNEgIkX, due to X Client Error: Not Found for url: https://roadmap.sh/devops/gcp%Xfunctions@JXsctlXUUSXieXnNEgIkX.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/gcp%Xfunctions@JXsctlXUUSXieXnNEgIkX
 INFO     app.main:main.py:X Creating filename='Cloud Design Patterns' markdown file with content ['Availability', 'Data Management', 'Design and Implementation', 'Management and Monitoring', 'Loki', 'Kubernetes', 'GCP Functions'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/devops/cloud%Xdesign%Xpatterns@wNguMX-YEznduzXMgBCYo> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/devops/cloud design patterns@wNguMX-YEznduzXMgBCYo, due to X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xdesign%Xpatterns@wNguMX-YEznduzXMgBCYo.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/devops/cloud%Xdesign%Xpatterns@wNguMX-YEznduzXMgBCYo
 INFO     app.main:main.py:X Creating filename='devops' markdown file with content ['Learn a Programming Language', 'Operating System', 'Terminal Knowledge', 'Version Control Systems', 'VCS Hosting', 'What is and how to setup X ?', 'Containers', 'Cloud Providers', 'Networking & Protocols', 'Serverless', 'Provisioning', 'Configuration Management', 'CI / CD Tools', 'Secret Management', 'Infrastructure Monitoring', 'Logs Management', 'Container Orchestration', 'Artifact Management', 'GitOps', 'Service Mesh', 'Cloud Design Patterns'].
 INFO     app.main:main.py:X Creating title='DevOps' structure.
 INFO     app.main:main.py:X Creating filename='DevOps' markdown file with content [].

@@ -5,153 +5,264 @@ INFO     app.main:main.py:X Checking if the content is a roadmap
 INFO     app.main:main.py:X Checking if the content is a subroadmap.
 INFO     app.main:main.py:X The content is a subroadmap.
 INFO     serializers:serializers.py:X Adding roadmap_name='docker'
-INFO     serializers:serializers.py:X Adding topic='introduction'
-INFO     serializers:serializers.py:X Adding topic='technologies'
-INFO     serializers:serializers.py:X Adding topic='setup'
-INFO     serializers:serializers.py:X Adding topic='persistence'
-INFO     serializers:serializers.py:X Adding topic='images'
-INFO     serializers:serializers.py:X Adding topic='basics'
-INFO     serializers:serializers.py:X Adding topic='registries'
-INFO     serializers:serializers.py:X Adding topic='containers'
-INFO     serializers:serializers.py:X Adding topic='security'
-INFO     serializers:serializers.py:X Adding topic='cli'
-INFO     serializers:serializers.py:X Adding topic='experience'
+INFO     serializers:serializers.py:X Adding topic='introduction'.
+INFO     serializers:serializers.py:X Adding topic='technologies'.
+INFO     serializers:serializers.py:X Adding topic='setup'.
+INFO     serializers:serializers.py:X Adding topic='persistence'.
+INFO     serializers:serializers.py:X Adding topic='images'.
+INFO     serializers:serializers.py:X Adding topic='basics'.
+INFO     serializers:serializers.py:X Adding topic='registries'.
+INFO     serializers:serializers.py:X Adding topic='containers'.
+INFO     serializers:serializers.py:X Adding topic='security'.
+INFO     serializers:serializers.py:X Adding topic='cli'.
+INFO     serializers:serializers.py:X Adding topic='experience'.
 INFO     app.main:main.py:X Creating title='docker' structure.
 INFO     app.main:main.py:X Creating topic='introduction' structure.
 INFO     app.main:main.py:X Creating subtopic='what-are-containers' structure.
 INFO     app.main:main.py:X Creating filename='what-are-containers' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/what-are-containers> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/introduction/what-are-containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='need-for-containers' structure.
 INFO     app.main:main.py:X Creating filename='need-for-containers' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/need-for-containers> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/introduction/need-for-containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='bare-metal-vm-containers' structure.
 INFO     app.main:main.py:X Creating filename='bare-metal-vm-containers' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/bare-metal-vm-containers> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/introduction/bare-metal-vm-containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-and-oci' structure.
 INFO     app.main:main.py:X Creating filename='docker-and-oci' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/docker-and-oci> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/introduction/docker-and-oci> from cassette
 INFO     app.main:main.py:X Creating filename='introduction' markdown file with content ['what-are-containers', 'need-for-containers', 'bare-metal-vm-containers', 'docker-and-oci'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/introduction> from cassette
 INFO     app.main:main.py:X Creating topic='technologies' structure.
 INFO     app.main:main.py:X Creating subtopic='namespaces' structure.
 INFO     app.main:main.py:X Creating filename='namespaces' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-underlying-technologies/namespaces> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/underlying-technologies/namespaces> from cassette
 INFO     app.main:main.py:X Creating subtopic='cgroups' structure.
 INFO     app.main:main.py:X Creating filename='cgroups' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-underlying-technologies/cgroups> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/underlying-technologies/cgroups> from cassette
 INFO     app.main:main.py:X Creating subtopic='union-filesystems' structure.
 INFO     app.main:main.py:X Creating filename='union-filesystems' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-underlying-technologies/union-filesystems> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/underlying-technologies/union-filesystems> from cassette
 INFO     app.main:main.py:X Creating filename='technologies' markdown file with content ['namespaces', 'cgroups', 'union-filesystems'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/technologies> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/technologies, due to X Client Error: Not Found for url: https://roadmap.sh/docker/technologies.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/technologies
 INFO     app.main:main.py:X Creating topic='setup' structure.
 INFO     app.main:main.py:X Creating subtopic='docker-desktop' structure.
 INFO     app.main:main.py:X Creating filename='docker-desktop' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-installation-setup/docker-desktop> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/installation-setup/docker-desktop> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-engine' structure.
 INFO     app.main:main.py:X Creating filename='docker-engine' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-installation-setup/docker-engine> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/installation-setup/docker-engine> from cassette
 INFO     app.main:main.py:X Creating filename='setup' markdown file with content ['docker-desktop', 'docker-engine'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/setup> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/setup, due to X Client Error: Not Found for url: https://roadmap.sh/docker/setup.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/setup
 INFO     app.main:main.py:X Creating topic='persistence' structure.
 INFO     app.main:main.py:X Creating subtopic='ephemeral-container-fs' structure.
 INFO     app.main:main.py:X Creating filename='ephemeral-container-fs' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-data-persistence/ephemeral-container-fs> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/data-persistence/ephemeral-container-fs> from cassette
 INFO     app.main:main.py:X Creating subtopic='volume-mounts' structure.
 INFO     app.main:main.py:X Creating filename='volume-mounts' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-data-persistence/volume-mounts> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/data-persistence/volume-mounts> from cassette
 INFO     app.main:main.py:X Creating subtopic='bind-mounts' structure.
 INFO     app.main:main.py:X Creating filename='bind-mounts' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-data-persistence/bind-mounts> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/data-persistence/bind-mounts> from cassette
 INFO     app.main:main.py:X Creating filename='persistence' markdown file with content ['ephemeral-container-fs', 'volume-mounts', 'bind-mounts'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/persistence> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/persistence, due to X Client Error: Not Found for url: https://roadmap.sh/docker/persistence.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/persistence
 INFO     app.main:main.py:X Creating topic='images' structure.
 INFO     app.main:main.py:X Creating subtopic='databases' structure.
 INFO     app.main:main.py:X Creating filename='databases' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-using-third-party-images/databases> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/using-third-party-images/databases> from cassette
 INFO     app.main:main.py:X Creating subtopic='interactive-test-environments' structure.
 INFO     app.main:main.py:X Creating filename='interactive-test-environments' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-using-third-party-images/interactive-test-environments> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/using-third-party-images/interactive-test-environments> from cassette
 INFO     app.main:main.py:X Creating subtopic='command-line-utilities' structure.
 INFO     app.main:main.py:X Creating filename='command-line-utilities' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-using-third-party-images/command-line-utilities> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/using-third-party-images/command-line-utilities> from cassette
 INFO     app.main:main.py:X Creating subtopic='dockerfiles' structure.
 INFO     app.main:main.py:X Creating filename='dockerfiles' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-building-container-images/dockerfiles> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/building-container-images/dockerfiles> from cassette
 INFO     app.main:main.py:X Creating subtopic='efficient-layer-caching' structure.
 INFO     app.main:main.py:X Creating filename='efficient-layer-caching' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-building-container-images/efficient-layer-caching> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/building-container-images/efficient-layer-caching> from cassette
 INFO     app.main:main.py:X Creating subtopic='image-size-and-security' structure.
 INFO     app.main:main.py:X Creating filename='image-size-and-security' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-building-container-images/image-size-and-security> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/building-container-images/image-size-and-security> from cassette
 INFO     app.main:main.py:X Creating filename='images' markdown file with content ['databases', 'interactive-test-environments', 'command-line-utilities', 'dockerfiles', 'efficient-layer-caching', 'image-size-and-security'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/images> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/images, due to X Client Error: Not Found for url: https://roadmap.sh/docker/images.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/images
 INFO     app.main:main.py:X Creating topic='basics' structure.
 INFO     app.main:main.py:X Creating filename='basics' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/basics> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/basics, due to X Client Error: Not Found for url: https://roadmap.sh/docker/basics.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/basics
 INFO     app.main:main.py:X Creating topic='registries' structure.
 INFO     app.main:main.py:X Creating subtopic='dockerhub' structure.
 INFO     app.main:main.py:X Creating filename='dockerhub' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-registries/dockerhub> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/container-registries/dockerhub> from cassette
 INFO     app.main:main.py:X Creating subtopic='dockerhub-alt' structure.
 INFO     app.main:main.py:X Creating filename='dockerhub-alt' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-registries/dockerhub-alt> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/container-registries/dockerhub-alt> from cassette
 INFO     app.main:main.py:X Creating subtopic='image-tagging-best-practices' structure.
 INFO     app.main:main.py:X Creating filename='image-tagging-best-practices' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-registries/image-tagging-best-practices> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/container-registries/image-tagging-best-practices> from cassette
 INFO     app.main:main.py:X Creating filename='registries' markdown file with content ['dockerhub', 'dockerhub-alt', 'image-tagging-best-practices'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/registries> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/registries, due to X Client Error: Not Found for url: https://roadmap.sh/docker/registries.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/registries
 INFO     app.main:main.py:X Creating topic='containers' structure.
 INFO     app.main:main.py:X Creating subtopic='docker-run' structure.
 INFO     app.main:main.py:X Creating filename='docker-run' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-running-containers/docker-run> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/running-containers/docker-run> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-compose' structure.
 INFO     app.main:main.py:X Creating filename='docker-compose' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-running-containers/docker-compose> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/running-containers/docker-compose> from cassette
 INFO     app.main:main.py:X Creating subtopic='runtime-config-options' structure.
 INFO     app.main:main.py:X Creating filename='runtime-config-options' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-running-containers/runtime-config-options> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/running-containers/runtime-config-options> from cassette
 INFO     app.main:main.py:X Creating subtopic='paas-options' structure.
 INFO     app.main:main.py:X Creating filename='paas-options' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/paas-options> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/deploying-containers/paas-options> from cassette
 INFO     app.main:main.py:X Creating subtopic='kubernetes' structure.
 INFO     app.main:main.py:X Creating filename='kubernetes' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/kubernetes> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/deploying-containers/kubernetes> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-swarm' structure.
 INFO     app.main:main.py:X Creating filename='docker-swarm' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/docker-swarm> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/deploying-containers/docker-swarm> from cassette
 INFO     app.main:main.py:X Creating subtopic='nomad' structure.
 INFO     app.main:main.py:X Creating filename='nomad' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/nomad> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/deploying-containers/nomad> from cassette
 INFO     app.main:main.py:X Creating filename='containers' markdown file with content ['docker-run', 'docker-compose', 'runtime-config-options', 'paas-options', 'kubernetes', 'docker-swarm', 'nomad'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/containers> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/containers, due to X Client Error: Not Found for url: https://roadmap.sh/docker/containers.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/containers
 INFO     app.main:main.py:X Creating topic='security' structure.
 INFO     app.main:main.py:X Creating subtopic='image-security' structure.
 INFO     app.main:main.py:X Creating filename='image-security' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-security/image-security> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/container-security/image-security> from cassette
 INFO     app.main:main.py:X Creating subtopic='runtime-security' structure.
 INFO     app.main:main.py:X Creating filename='runtime-security' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-security/runtime-security> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/container-security/runtime-security> from cassette
 INFO     app.main:main.py:X Creating filename='security' markdown file with content ['image-security', 'runtime-security'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/security> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/security, due to X Client Error: Not Found for url: https://roadmap.sh/docker/security.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/security
 INFO     app.main:main.py:X Creating topic='cli' structure.
 INFO     app.main:main.py:X Creating subtopic='images' structure.
 INFO     app.main:main.py:X Creating filename='images' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/images> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/docker-cli/images> from cassette
 INFO     app.main:main.py:X Creating subtopic='containers' structure.
 INFO     app.main:main.py:X Creating filename='containers' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/containers> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/docker-cli/containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='volumes' structure.
 INFO     app.main:main.py:X Creating filename='volumes' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/volumes> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/docker-cli/volumes> from cassette
 INFO     app.main:main.py:X Creating subtopic='networks' structure.
 INFO     app.main:main.py:X Creating filename='networks' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/networks> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/docker-cli/networks> from cassette
 INFO     app.main:main.py:X Creating filename='cli' markdown file with content ['images', 'containers', 'volumes', 'networks'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/cli> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/cli, due to X Client Error: Not Found for url: https://roadmap.sh/docker/cli.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/cli
 INFO     app.main:main.py:X Creating topic='experience' structure.
 INFO     app.main:main.py:X Creating subtopic='hot-reloading' structure.
 INFO     app.main:main.py:X Creating filename='hot-reloading' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/hot-reloading> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/developer-experience/hot-reloading> from cassette
 INFO     app.main:main.py:X Creating subtopic='debuggers' structure.
 INFO     app.main:main.py:X Creating filename='debuggers' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/debuggers> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/developer-experience/debuggers> from cassette
 INFO     app.main:main.py:X Creating subtopic='tests' structure.
 INFO     app.main:main.py:X Creating filename='tests' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/tests> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/developer-experience/tests> from cassette
 INFO     app.main:main.py:X Creating subtopic='continuous-integration' structure.
 INFO     app.main:main.py:X Creating filename='continuous-integration' markdown file with content [].
-INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/continuous-integration> from cassette
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/developer-experience/continuous-integration> from cassette
 INFO     app.main:main.py:X Creating filename='experience' markdown file with content ['hot-reloading', 'debuggers', 'tests', 'continuous-integration'].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/experience> from cassette
+ERROR    app.main:main.py:X Failed to get content from https://roadmap.sh/docker/experience, due to X Client Error: Not Found for url: https://roadmap.sh/docker/experience.
+Traceback (most recent call last):
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _create_markdown_file
+    content = self._get_topic_content(content_url)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nainai/projects/personal/roadmap_to_dir/app/main.py", line X, in _get_topic_content
+    response.raise_for_status()
+  File "/home/nainai/.cache/pypoetry/virtualenvs/app-XJUIhXBZ-pyX.X/lib/pythonX.X/site-packages/requests/models.py", line X, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: X Client Error: Not Found for url: https://roadmap.sh/docker/experience
 INFO     app.main:main.py:X Creating filename='docker' markdown file with content ['introduction', 'technologies', 'setup', 'persistence', 'images', 'basics', 'registries', 'containers', 'security', 'cli', 'experience'].
 INFO     app.main:main.py:X Roadmap docker extracted.
