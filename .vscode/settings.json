@@ -10,5 +10,6 @@
     "python.testing.pytestEnabled": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "python.analysis.autoFormatStrings": true
 }
