@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 import requests
+from markdownify import markdownify
 from pydantic_core import ValidationError
 
 from app.serializers import Roadmap, SubRoadmap
@@ -81,7 +82,9 @@ class RoadmapExtractor:
             )
 
     def _create_topic_structure(self, data: dict[str, Any], base_path: Path) -> None:
-        for topic, subtopics in data.items():
+        for topic, subtopics_info in data.items():
+            subtopics = subtopics_info.get("subtopics", [])
+            topic_content_url = subtopics_info.get("content_url", None)
             logger.info(msg=f"Creating {topic=} structure.")
             topic_path = self._create_directory(filename=topic, base_path=base_path)
             for subtopic_info in subtopics:
@@ -100,6 +103,7 @@ class RoadmapExtractor:
                 filename=topic,
                 related_filenames=[value[0] for value in subtopics],
                 base_path=topic_path.parent,
+                content_url=topic_content_url,
             )
 
     def _create_markdown_file(
@@ -119,7 +123,7 @@ class RoadmapExtractor:
         )
         shall_add_initial_content = not markdown_file_path.exists()
         markdown_file_path.touch(exist_ok=True)
-        with open(file=markdown_file_path, mode="w") as md_file:
+        with open(file=markdown_file_path, mode="a") as md_file:
             logger.debug(msg=f"Creating {markdown_file_path=} file.")
             if shall_add_initial_content:
                 md_file.write(f"# {filename}\n\n## Contents\n\n")
@@ -130,16 +134,30 @@ class RoadmapExtractor:
                     )
 
             if content_url:
-                md_file.write(f"\n\n ## Roadmap info from ({content_url})\n")
-                content = self._get_topic_content(content_url)
-                md_file.write("\n```html\n")
-                md_file.write(str(content))
-                md_file.write("\n```\n")
+                md_file.write(
+                    f"\n__Roadmap info from [roadmap website]({content_url})__\n"
+                )
+                try:
+                    content = self._get_topic_content(content_url)
+                    md_file.write(f"\n{content}\n")
+                except Exception as e:
+                    logger.exception(
+                        msg=f"Failed to get content from {content_url}, due to {e}."
+                    )
+
         return markdown_file_path
 
-    def _get_topic_content(self, content_url: str) -> str | bytes:
+    def _get_topic_content(self, content_url: str) -> str:
         response: requests.Response = requests.get(url=content_url)
-        return response.content
+        response.raise_for_status()
+        decoded_content = response.content.decode("utf-8")
+        markdownify_content = markdownify(
+            html=decoded_content,
+            heading_style="ATX",
+            extensions=["fenced-code", "tables"],
+        )
+        # workaround for set the right heading level
+        return f"#{markdownify_content.strip()}"
 
     def _create_directory(self, filename: str, base_path: Path) -> Path:
         new_path: Path = base_path / self._clean_pathname(pathname=filename)

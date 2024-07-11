@@ -89,19 +89,26 @@ class SubRoadmap(BaseModel):
                     current_subtopics[current_topic] = []
                 if len(control_name_parts) == 2:
                     subtopic = control_name_parts[1]
-                    complete_name = control_name_parts[0]
+                    complete_name_subtopic = "-".join(topic_parts[1:])
                     current_subtopics[current_topic].append(
                         (
                             subtopic,
-                            f"https://roadmap.sh/{roadmap_name}/{complete_name.lower()}/{subtopic.lower()}",
-                        )
+                            f"https://roadmap.sh/{roadmap_name}/{complete_name_subtopic.lower()}/{subtopic.lower()}",
+                        ),
                     )
         logger.info(msg=f"Adding {roadmap_name=}")
         result[roadmap_name] = []
 
         for topic, subtopics in current_subtopics.items():
-            logger.info(msg=f"Adding {topic=}")
-            result[roadmap_name].append({topic: subtopics})
+            logger.info(msg=f"Adding {topic=}.")
+            result[roadmap_name].append(
+                {
+                    topic: {
+                        "subtopics": subtopics,
+                        "content_url": f"https://roadmap.sh/{roadmap_name}/{topic.lower()}",
+                    }
+                }
+            )
         return result
 
 
@@ -129,7 +136,14 @@ class Roadmap(BaseModel):
                 result[title_node] = []
             elif node.type == "topic":
                 if isinstance(current_topic, str):
-                    result[roadmap_name].append({current_topic: current_subtopics})
+                    result[roadmap_name].append(
+                        {
+                            current_topic: {
+                                "subtopics": current_subtopics,
+                                "content_url": f"https://roadmap.sh/{roadmap_name.lower()}/{current_topic.lower()}@{node.id}",
+                            }
+                        }
+                    )
 
                 current_topic = node.data.label
                 current_subtopics = []

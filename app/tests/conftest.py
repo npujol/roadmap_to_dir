@@ -15,16 +15,28 @@ def structure_fixture() -> dict[str, list[dict[str, list[str]]]]:
     return {
         "DevOps": [
             {
-                "Learn a Programming Language": [
-                    ("Python", "https://roadmap.sh/python/python-basics/basic-syntax"),
-                    ("Ruby", "https://roadmap.sh/python/python-basics/basic-syntax"),
-                    ("Go", "https://roadmap.sh/python/python-basics/basic-syntax"),
-                    ("Rust", "https://roadmap.sh/python/python-basics/basic-syntax"),
-                    (
-                        "JavaScript / Node.js",
-                        "https://roadmap.sh/python/python-basics/basic-syntax",
-                    ),
-                ]
+                "Learn a Programming Language": {
+                    "subtopics": [
+                        (
+                            "Python",
+                            "https://roadmap.sh/python/python-basics/basic-syntax",
+                        ),
+                        (
+                            "Ruby",
+                            "https://roadmap.sh/python/python-basics/basic-syntax",
+                        ),
+                        ("Go", "https://roadmap.sh/python/python-basics/basic-syntax"),
+                        (
+                            "Rust",
+                            "https://roadmap.sh/python/python-basics/basic-syntax",
+                        ),
+                        (
+                            "JavaScript / Node.js",
+                            "https://roadmap.sh/python/python-basics/basic-syntax",
+                        ),
+                    ],
+                    "content_url": "https://roadmap.sh/devops/learn-a-programming-language",
+                },
             }
         ]
     }
