@@ -13,7 +13,7 @@ python roadmap_extractor.py <roadmap_name> --output <output_directory>
 This will create the folder structure and markdown files in the specified output directory based on the provided roadmap name.
 
 ```bash
-python roadmap_extractor.py DevOps --output output
+python app/main.py python --output output
 ```
 
 ## TODO
