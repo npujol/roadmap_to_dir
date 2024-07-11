@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.12"
 requests = "*"
 pydantic = "*"
+markdownify = "^0.12.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "*"
