@@ -32,6 +32,7 @@ def test_get_roadmap(
     assert snapshot(f"{roadmap_name}.json") == result.model_dump(mode="json")
 
 
+@pytest.mark.vcr()
 def test_directory_structure(
     roadmap_extractor_fixture: RoadmapExtractor,
     structure_fixture: dict[str, list[dict[str, list[str]]]],

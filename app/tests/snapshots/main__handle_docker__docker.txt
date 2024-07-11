@@ -20,100 +20,138 @@ INFO     app.main:main.py:X Creating title='docker' structure.
 INFO     app.main:main.py:X Creating topic='introduction' structure.
 INFO     app.main:main.py:X Creating subtopic='what-are-containers' structure.
 INFO     app.main:main.py:X Creating filename='what-are-containers' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/what-are-containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='need-for-containers' structure.
 INFO     app.main:main.py:X Creating filename='need-for-containers' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/need-for-containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='bare-metal-vm-containers' structure.
 INFO     app.main:main.py:X Creating filename='bare-metal-vm-containers' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/bare-metal-vm-containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-and-oci' structure.
 INFO     app.main:main.py:X Creating filename='docker-and-oci' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-introduction/docker-and-oci> from cassette
 INFO     app.main:main.py:X Creating filename='introduction' markdown file with content ['what-are-containers', 'need-for-containers', 'bare-metal-vm-containers', 'docker-and-oci'].
 INFO     app.main:main.py:X Creating topic='technologies' structure.
 INFO     app.main:main.py:X Creating subtopic='namespaces' structure.
 INFO     app.main:main.py:X Creating filename='namespaces' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-underlying-technologies/namespaces> from cassette
 INFO     app.main:main.py:X Creating subtopic='cgroups' structure.
 INFO     app.main:main.py:X Creating filename='cgroups' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-underlying-technologies/cgroups> from cassette
 INFO     app.main:main.py:X Creating subtopic='union-filesystems' structure.
 INFO     app.main:main.py:X Creating filename='union-filesystems' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-underlying-technologies/union-filesystems> from cassette
 INFO     app.main:main.py:X Creating filename='technologies' markdown file with content ['namespaces', 'cgroups', 'union-filesystems'].
 INFO     app.main:main.py:X Creating topic='setup' structure.
 INFO     app.main:main.py:X Creating subtopic='docker-desktop' structure.
 INFO     app.main:main.py:X Creating filename='docker-desktop' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-installation-setup/docker-desktop> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-engine' structure.
 INFO     app.main:main.py:X Creating filename='docker-engine' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-installation-setup/docker-engine> from cassette
 INFO     app.main:main.py:X Creating filename='setup' markdown file with content ['docker-desktop', 'docker-engine'].
 INFO     app.main:main.py:X Creating topic='persistence' structure.
 INFO     app.main:main.py:X Creating subtopic='ephemeral-container-fs' structure.
 INFO     app.main:main.py:X Creating filename='ephemeral-container-fs' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-data-persistence/ephemeral-container-fs> from cassette
 INFO     app.main:main.py:X Creating subtopic='volume-mounts' structure.
 INFO     app.main:main.py:X Creating filename='volume-mounts' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-data-persistence/volume-mounts> from cassette
 INFO     app.main:main.py:X Creating subtopic='bind-mounts' structure.
 INFO     app.main:main.py:X Creating filename='bind-mounts' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-data-persistence/bind-mounts> from cassette
 INFO     app.main:main.py:X Creating filename='persistence' markdown file with content ['ephemeral-container-fs', 'volume-mounts', 'bind-mounts'].
 INFO     app.main:main.py:X Creating topic='images' structure.
 INFO     app.main:main.py:X Creating subtopic='databases' structure.
 INFO     app.main:main.py:X Creating filename='databases' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-using-third-party-images/databases> from cassette
 INFO     app.main:main.py:X Creating subtopic='interactive-test-environments' structure.
 INFO     app.main:main.py:X Creating filename='interactive-test-environments' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-using-third-party-images/interactive-test-environments> from cassette
 INFO     app.main:main.py:X Creating subtopic='command-line-utilities' structure.
 INFO     app.main:main.py:X Creating filename='command-line-utilities' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-using-third-party-images/command-line-utilities> from cassette
 INFO     app.main:main.py:X Creating subtopic='dockerfiles' structure.
 INFO     app.main:main.py:X Creating filename='dockerfiles' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-building-container-images/dockerfiles> from cassette
 INFO     app.main:main.py:X Creating subtopic='efficient-layer-caching' structure.
 INFO     app.main:main.py:X Creating filename='efficient-layer-caching' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-building-container-images/efficient-layer-caching> from cassette
 INFO     app.main:main.py:X Creating subtopic='image-size-and-security' structure.
 INFO     app.main:main.py:X Creating filename='image-size-and-security' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-building-container-images/image-size-and-security> from cassette
 INFO     app.main:main.py:X Creating filename='images' markdown file with content ['databases', 'interactive-test-environments', 'command-line-utilities', 'dockerfiles', 'efficient-layer-caching', 'image-size-and-security'].
 INFO     app.main:main.py:X Creating topic='basics' structure.
 INFO     app.main:main.py:X Creating filename='basics' markdown file with content [].
 INFO     app.main:main.py:X Creating topic='registries' structure.
 INFO     app.main:main.py:X Creating subtopic='dockerhub' structure.
 INFO     app.main:main.py:X Creating filename='dockerhub' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-registries/dockerhub> from cassette
 INFO     app.main:main.py:X Creating subtopic='dockerhub-alt' structure.
 INFO     app.main:main.py:X Creating filename='dockerhub-alt' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-registries/dockerhub-alt> from cassette
 INFO     app.main:main.py:X Creating subtopic='image-tagging-best-practices' structure.
 INFO     app.main:main.py:X Creating filename='image-tagging-best-practices' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-registries/image-tagging-best-practices> from cassette
 INFO     app.main:main.py:X Creating filename='registries' markdown file with content ['dockerhub', 'dockerhub-alt', 'image-tagging-best-practices'].
 INFO     app.main:main.py:X Creating topic='containers' structure.
 INFO     app.main:main.py:X Creating subtopic='docker-run' structure.
 INFO     app.main:main.py:X Creating filename='docker-run' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-running-containers/docker-run> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-compose' structure.
 INFO     app.main:main.py:X Creating filename='docker-compose' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-running-containers/docker-compose> from cassette
 INFO     app.main:main.py:X Creating subtopic='runtime-config-options' structure.
 INFO     app.main:main.py:X Creating filename='runtime-config-options' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-running-containers/runtime-config-options> from cassette
 INFO     app.main:main.py:X Creating subtopic='paas-options' structure.
 INFO     app.main:main.py:X Creating filename='paas-options' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/paas-options> from cassette
 INFO     app.main:main.py:X Creating subtopic='kubernetes' structure.
 INFO     app.main:main.py:X Creating filename='kubernetes' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/kubernetes> from cassette
 INFO     app.main:main.py:X Creating subtopic='docker-swarm' structure.
 INFO     app.main:main.py:X Creating filename='docker-swarm' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/docker-swarm> from cassette
 INFO     app.main:main.py:X Creating subtopic='nomad' structure.
 INFO     app.main:main.py:X Creating filename='nomad' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-deploying-containers/nomad> from cassette
 INFO     app.main:main.py:X Creating filename='containers' markdown file with content ['docker-run', 'docker-compose', 'runtime-config-options', 'paas-options', 'kubernetes', 'docker-swarm', 'nomad'].
 INFO     app.main:main.py:X Creating topic='security' structure.
 INFO     app.main:main.py:X Creating subtopic='image-security' structure.
 INFO     app.main:main.py:X Creating filename='image-security' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-security/image-security> from cassette
 INFO     app.main:main.py:X Creating subtopic='runtime-security' structure.
 INFO     app.main:main.py:X Creating filename='runtime-security' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-container-security/runtime-security> from cassette
 INFO     app.main:main.py:X Creating filename='security' markdown file with content ['image-security', 'runtime-security'].
 INFO     app.main:main.py:X Creating topic='cli' structure.
 INFO     app.main:main.py:X Creating subtopic='images' structure.
 INFO     app.main:main.py:X Creating filename='images' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/images> from cassette
 INFO     app.main:main.py:X Creating subtopic='containers' structure.
 INFO     app.main:main.py:X Creating filename='containers' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/containers> from cassette
 INFO     app.main:main.py:X Creating subtopic='volumes' structure.
 INFO     app.main:main.py:X Creating filename='volumes' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/volumes> from cassette
 INFO     app.main:main.py:X Creating subtopic='networks' structure.
 INFO     app.main:main.py:X Creating filename='networks' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-docker-cli/networks> from cassette
 INFO     app.main:main.py:X Creating filename='cli' markdown file with content ['images', 'containers', 'volumes', 'networks'].
 INFO     app.main:main.py:X Creating topic='experience' structure.
 INFO     app.main:main.py:X Creating subtopic='hot-reloading' structure.
 INFO     app.main:main.py:X Creating filename='hot-reloading' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/hot-reloading> from cassette
 INFO     app.main:main.py:X Creating subtopic='debuggers' structure.
 INFO     app.main:main.py:X Creating filename='debuggers' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/debuggers> from cassette
 INFO     app.main:main.py:X Creating subtopic='tests' structure.
 INFO     app.main:main.py:X Creating filename='tests' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/tests> from cassette
 INFO     app.main:main.py:X Creating subtopic='continuous-integration' structure.
 INFO     app.main:main.py:X Creating filename='continuous-integration' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/docker/X-developer-experience/continuous-integration> from cassette
 INFO     app.main:main.py:X Creating filename='experience' markdown file with content ['hot-reloading', 'debuggers', 'tests', 'continuous-integration'].
 INFO     app.main:main.py:X Creating filename='docker' markdown file with content ['introduction', 'technologies', 'setup', 'persistence', 'images', 'basics', 'registries', 'containers', 'security', 'cli', 'experience'].
 INFO     app.main:main.py:X Roadmap docker extracted.

@@ -16,78 +16,110 @@ INFO     app.main:main.py:X Creating title='python' structure.
 INFO     app.main:main.py:X Creating topic='basics' structure.
 INFO     app.main:main.py:X Creating subtopic='basic-syntax' structure.
 INFO     app.main:main.py:X Creating filename='basic-syntax' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-basics/basic-syntax> from cassette
 INFO     app.main:main.py:X Creating subtopic='variables-and-datatypes' structure.
 INFO     app.main:main.py:X Creating filename='variables-and-datatypes' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-basics/variables-and-datatypes> from cassette
 INFO     app.main:main.py:X Creating subtopic='lists-tuples-sets-dictionaries' structure.
 INFO     app.main:main.py:X Creating filename='lists-tuples-sets-dictionaries' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-basics/lists-tuples-sets-dictionaries> from cassette
 INFO     app.main:main.py:X Creating subtopic='conditionals' structure.
 INFO     app.main:main.py:X Creating filename='conditionals' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-basics/conditionals> from cassette
 INFO     app.main:main.py:X Creating subtopic='typecasting-exceptions' structure.
 INFO     app.main:main.py:X Creating filename='typecasting-exceptions' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-basics/typecasting-exceptions> from cassette
 INFO     app.main:main.py:X Creating subtopic='functions' structure.
 INFO     app.main:main.py:X Creating filename='functions' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-basics/functions> from cassette
 INFO     app.main:main.py:X Creating filename='basics' markdown file with content ['basic-syntax', 'variables-and-datatypes', 'lists-tuples-sets-dictionaries', 'conditionals', 'typecasting-exceptions', 'functions'].
 INFO     app.main:main.py:X Creating topic='algorithms' structure.
 INFO     app.main:main.py:X Creating subtopic='arrays-linked-lists' structure.
 INFO     app.main:main.py:X Creating filename='arrays-linked-lists' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-data-structures-and-algorithms/arrays-linked-lists> from cassette
 INFO     app.main:main.py:X Creating subtopic='heaps-stacks-queues' structure.
 INFO     app.main:main.py:X Creating filename='heaps-stacks-queues' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-data-structures-and-algorithms/heaps-stacks-queues> from cassette
 INFO     app.main:main.py:X Creating subtopic='hash-tables' structure.
 INFO     app.main:main.py:X Creating filename='hash-tables' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-data-structures-and-algorithms/hash-tables> from cassette
 INFO     app.main:main.py:X Creating subtopic='binary-search-trees' structure.
 INFO     app.main:main.py:X Creating filename='binary-search-trees' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-data-structures-and-algorithms/binary-search-trees> from cassette
 INFO     app.main:main.py:X Creating subtopic='recursion' structure.
 INFO     app.main:main.py:X Creating filename='recursion' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-data-structures-and-algorithms/recursion> from cassette
 INFO     app.main:main.py:X Creating subtopic='sorting-algorithms' structure.
 INFO     app.main:main.py:X Creating filename='sorting-algorithms' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-data-structures-and-algorithms/sorting-algorithms> from cassette
 INFO     app.main:main.py:X Creating filename='algorithms' markdown file with content ['arrays-linked-lists', 'heaps-stacks-queues', 'hash-tables', 'binary-search-trees', 'recursion', 'sorting-algorithms'].
 INFO     app.main:main.py:X Creating topic='topics' structure.
 INFO     app.main:main.py:X Creating subtopic='modules' structure.
 INFO     app.main:main.py:X Creating filename='modules' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/modules> from cassette
 INFO     app.main:main.py:X Creating subtopic='iterators' structure.
 INFO     app.main:main.py:X Creating filename='iterators' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/iterators> from cassette
 INFO     app.main:main.py:X Creating subtopic='oop' structure.
 INFO     app.main:main.py:X Creating filename='oop' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/oop> from cassette
 INFO     app.main:main.py:X Creating subtopic='decorators' structure.
 INFO     app.main:main.py:X Creating filename='decorators' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/decorators> from cassette
 INFO     app.main:main.py:X Creating subtopic='regular-expressions' structure.
 INFO     app.main:main.py:X Creating filename='regular-expressions' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/regular-expressions> from cassette
 INFO     app.main:main.py:X Creating subtopic='lambdas' structure.
 INFO     app.main:main.py:X Creating filename='lambdas' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/lambdas> from cassette
 INFO     app.main:main.py:X Creating subtopic='list-comprehensions' structure.
 INFO     app.main:main.py:X Creating filename='list-comprehensions' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/list-comprehensions> from cassette
 INFO     app.main:main.py:X Creating subtopic='generator-expressions' structure.
 INFO     app.main:main.py:X Creating filename='generator-expressions' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/generator-expressions> from cassette
 INFO     app.main:main.py:X Creating subtopic='paradigms' structure.
 INFO     app.main:main.py:X Creating filename='paradigms' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-advanced-topics/paradigms> from cassette
 INFO     app.main:main.py:X Creating filename='topics' markdown file with content ['modules', 'iterators', 'oop', 'decorators', 'regular-expressions', 'lambdas', 'list-comprehensions', 'generator-expressions', 'paradigms'].
 INFO     app.main:main.py:X Creating topic='frameworks' structure.
 INFO     app.main:main.py:X Creating subtopic='synchronous' structure.
 INFO     app.main:main.py:X Creating filename='synchronous' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-frameworks/synchronous> from cassette
 INFO     app.main:main.py:X Creating subtopic='asynchronous' structure.
 INFO     app.main:main.py:X Creating filename='asynchronous' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-frameworks/asynchronous> from cassette
 INFO     app.main:main.py:X Creating subtopic='fastapi' structure.
 INFO     app.main:main.py:X Creating filename='fastapi' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-frameworks/fastapi> from cassette
 INFO     app.main:main.py:X Creating filename='frameworks' markdown file with content ['synchronous', 'asynchronous', 'fastapi'].
 INFO     app.main:main.py:X Creating topic='testing' structure.
 INFO     app.main:main.py:X Creating subtopic='unittest-pyunit' structure.
 INFO     app.main:main.py:X Creating filename='unittest-pyunit' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-testing/unittest-pyunit> from cassette
 INFO     app.main:main.py:X Creating subtopic='pytest' structure.
 INFO     app.main:main.py:X Creating filename='pytest' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-testing/pytest> from cassette
 INFO     app.main:main.py:X Creating subtopic='doctest' structure.
 INFO     app.main:main.py:X Creating filename='doctest' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-testing/doctest> from cassette
 INFO     app.main:main.py:X Creating subtopic='nose' structure.
 INFO     app.main:main.py:X Creating filename='nose' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-testing/nose> from cassette
 INFO     app.main:main.py:X Creating filename='testing' markdown file with content ['unittest-pyunit', 'pytest', 'doctest', 'nose'].
 INFO     app.main:main.py:X Creating topic='managers' structure.
 INFO     app.main:main.py:X Creating subtopic='pypi' structure.
 INFO     app.main:main.py:X Creating filename='pypi' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-package-managers/pypi> from cassette
 INFO     app.main:main.py:X Creating subtopic='pip' structure.
 INFO     app.main:main.py:X Creating filename='pip' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-package-managers/pip> from cassette
 INFO     app.main:main.py:X Creating subtopic='conda' structure.
 INFO     app.main:main.py:X Creating filename='conda' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-package-managers/conda> from cassette
 INFO     app.main:main.py:X Creating subtopic='poetry' structure.
 INFO     app.main:main.py:X Creating filename='poetry' markdown file with content [].
+INFO     vcr.stubs:__init__.py:X Playing response for <Request (GET) https://roadmap.sh/python/X-python-package-managers/poetry> from cassette
 INFO     app.main:main.py:X Creating filename='managers' markdown file with content ['pypi', 'pip', 'conda', 'poetry'].
 INFO     app.main:main.py:X Creating topic='note' structure.
 INFO     app.main:main.py:X Creating filename='note' markdown file with content [].
