@@ -1,0 +1,362 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://roadmap.sh/python/python-basics/basic-syntax
+  response:
+    body:
+      string: '<div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/python/content/100-python-basics/100-basic-syntax.md"></div>
+        <h1 id="basic-syntax">Basic Syntax</h1>
+
+        <p>Setup the environment for python and get started with the basics.</p>
+
+        <p>Visit the following resources to learn more:</p>
+
+        <ul>
+
+        <li><a href="https://www.w3schools.com/python/" rel="noopener noreferrer nofollow"
+        target="_blank">@article@W3Schools - Python</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=kqtD5dpn9C8" rel="noopener noreferrer
+        nofollow" target="_blank">@video@Python for Beginners - Learn Python in 1
+        Hour</a></li>
+
+        <li><a href="https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        rel="noopener noreferrer nofollow" target="_blank">@article@Python Basics</a></li>
+
+        <li><a href="https://learnxinyminutes.com/docs/python/" rel="noopener noreferrer
+        nofollow" target="_blank">@article@Learn X in Y Minutes / Python</a></li>
+
+        </ul>'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '10685'
+      Cache-Control:
+      - max-age=0, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '960'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Thu, 11 Jul 2024 12:03:46 GMT
+      ETag:
+      - W/"3c0-190a1abdfc5"
+      Last-Modified:
+      - Thu, 11 Jul 2024 12:01:54 GMT
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Via:
+      - 1.1 b61409af370dbf025ffc910b1252c65e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - 0ES4B5ig8hZr_73OOth30V74IZ05yGbk7HA-9z9WjoYRx-zjChxEBA==
+      X-Amz-Cf-Pop:
+      - AMS54-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://roadmap.sh/python/python-basics/basic-syntax
+  response:
+    body:
+      string: '<div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/python/content/100-python-basics/100-basic-syntax.md"></div>
+        <h1 id="basic-syntax">Basic Syntax</h1>
+
+        <p>Setup the environment for python and get started with the basics.</p>
+
+        <p>Visit the following resources to learn more:</p>
+
+        <ul>
+
+        <li><a href="https://www.w3schools.com/python/" rel="noopener noreferrer nofollow"
+        target="_blank">@article@W3Schools - Python</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=kqtD5dpn9C8" rel="noopener noreferrer
+        nofollow" target="_blank">@video@Python for Beginners - Learn Python in 1
+        Hour</a></li>
+
+        <li><a href="https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        rel="noopener noreferrer nofollow" target="_blank">@article@Python Basics</a></li>
+
+        <li><a href="https://learnxinyminutes.com/docs/python/" rel="noopener noreferrer
+        nofollow" target="_blank">@article@Learn X in Y Minutes / Python</a></li>
+
+        </ul>'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '10686'
+      Cache-Control:
+      - max-age=0, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '960'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Thu, 11 Jul 2024 12:03:46 GMT
+      ETag:
+      - W/"3c0-190a1abdfc5"
+      Last-Modified:
+      - Thu, 11 Jul 2024 12:01:54 GMT
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Via:
+      - 1.1 b8eaad25e4131c15c21d3d50aac2684c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - _ag4TAvuiFL0aoZCBpBK8m8YhsYEDsHnnhPiL8b9irRPX7G64yfl4Q==
+      X-Amz-Cf-Pop:
+      - AMS54-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://roadmap.sh/python/python-basics/basic-syntax
+  response:
+    body:
+      string: '<div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/python/content/100-python-basics/100-basic-syntax.md"></div>
+        <h1 id="basic-syntax">Basic Syntax</h1>
+
+        <p>Setup the environment for python and get started with the basics.</p>
+
+        <p>Visit the following resources to learn more:</p>
+
+        <ul>
+
+        <li><a href="https://www.w3schools.com/python/" rel="noopener noreferrer nofollow"
+        target="_blank">@article@W3Schools - Python</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=kqtD5dpn9C8" rel="noopener noreferrer
+        nofollow" target="_blank">@video@Python for Beginners - Learn Python in 1
+        Hour</a></li>
+
+        <li><a href="https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        rel="noopener noreferrer nofollow" target="_blank">@article@Python Basics</a></li>
+
+        <li><a href="https://learnxinyminutes.com/docs/python/" rel="noopener noreferrer
+        nofollow" target="_blank">@article@Learn X in Y Minutes / Python</a></li>
+
+        </ul>'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '10686'
+      Cache-Control:
+      - max-age=0, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '960'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Thu, 11 Jul 2024 12:03:46 GMT
+      ETag:
+      - W/"3c0-190a1abdfc5"
+      Last-Modified:
+      - Thu, 11 Jul 2024 12:01:54 GMT
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Via:
+      - 1.1 6e44e48abc671a9155ea845c36f68920.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - bVlhoYqGXqRiMVYB4rnEuT1XKWBX3u7Ed608sjzlXIDEVWRVs4fENw==
+      X-Amz-Cf-Pop:
+      - AMS54-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://roadmap.sh/python/python-basics/basic-syntax
+  response:
+    body:
+      string: '<div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/python/content/100-python-basics/100-basic-syntax.md"></div>
+        <h1 id="basic-syntax">Basic Syntax</h1>
+
+        <p>Setup the environment for python and get started with the basics.</p>
+
+        <p>Visit the following resources to learn more:</p>
+
+        <ul>
+
+        <li><a href="https://www.w3schools.com/python/" rel="noopener noreferrer nofollow"
+        target="_blank">@article@W3Schools - Python</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=kqtD5dpn9C8" rel="noopener noreferrer
+        nofollow" target="_blank">@video@Python for Beginners - Learn Python in 1
+        Hour</a></li>
+
+        <li><a href="https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        rel="noopener noreferrer nofollow" target="_blank">@article@Python Basics</a></li>
+
+        <li><a href="https://learnxinyminutes.com/docs/python/" rel="noopener noreferrer
+        nofollow" target="_blank">@article@Learn X in Y Minutes / Python</a></li>
+
+        </ul>'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '10696'
+      Cache-Control:
+      - max-age=0, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '960'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Thu, 11 Jul 2024 12:03:46 GMT
+      ETag:
+      - W/"3c0-190a1abdfc5"
+      Last-Modified:
+      - Thu, 11 Jul 2024 12:01:54 GMT
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Via:
+      - 1.1 2b298af2bb6f21ab0dee9e764d8bcb28.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - POCQ-Rmii0NMgb_Dplp8SrFrCUE0oKEqAYATIes--EWiYqOQFzNayw==
+      X-Amz-Cf-Pop:
+      - AMS54-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.3
+    method: GET
+    uri: https://roadmap.sh/python/python-basics/basic-syntax
+  response:
+    body:
+      string: '<div data-github-url="https://github.com/kamranahmedse/developer-roadmap/tree/master/src/data/roadmaps/python/content/100-python-basics/100-basic-syntax.md"></div>
+        <h1 id="basic-syntax">Basic Syntax</h1>
+
+        <p>Setup the environment for python and get started with the basics.</p>
+
+        <p>Visit the following resources to learn more:</p>
+
+        <ul>
+
+        <li><a href="https://www.w3schools.com/python/" rel="noopener noreferrer nofollow"
+        target="_blank">@article@W3Schools - Python</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=kqtD5dpn9C8" rel="noopener noreferrer
+        nofollow" target="_blank">@video@Python for Beginners - Learn Python in 1
+        Hour</a></li>
+
+        <li><a href="https://www.tutorialspoint.com/python/python_basic_syntax.htm"
+        rel="noopener noreferrer nofollow" target="_blank">@article@Python Basics</a></li>
+
+        <li><a href="https://learnxinyminutes.com/docs/python/" rel="noopener noreferrer
+        nofollow" target="_blank">@article@Learn X in Y Minutes / Python</a></li>
+
+        </ul>'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Age:
+      - '10696'
+      Cache-Control:
+      - max-age=0, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '960'
+      Content-Type:
+      - text/html; charset=UTF-8
+      Date:
+      - Thu, 11 Jul 2024 12:03:46 GMT
+      ETag:
+      - W/"3c0-190a1abdfc5"
+      Last-Modified:
+      - Thu, 11 Jul 2024 12:01:54 GMT
+      Server:
+      - nginx/1.18.0 (Ubuntu)
+      Via:
+      - 1.1 b8eaad25e4131c15c21d3d50aac2684c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - nPYSqXjbT1-Wtqyf3blbCv2_ZIFpYgB2rY7wq4Mw4ulJ909Z-yGMRw==
+      X-Amz-Cf-Pop:
+      - AMS54-C1
+      X-Cache:
+      - Hit from cloudfront
+      X-Frame-Options:
+      - SAMEORIGIN
+    status:
+      code: 200
+      message: OK
+version: 1

@@ -84,15 +84,22 @@ class RoadmapExtractor:
         for topic, subtopics in data.items():
             logger.info(msg=f"Creating {topic=} structure.")
             topic_path = self._create_directory(filename=topic, base_path=base_path)
-            for subtopic in subtopics:
+            for subtopic_info in subtopics:
+                subtopic = subtopic_info[0]
+                content_url = subtopic_info[1]
                 logger.info(msg=f"Creating {subtopic=} structure.")
                 topic_path: Path = base_path / self._clean_pathname(pathname=topic)
                 self._create_directory(filename=subtopic, base_path=topic_path)
                 self._create_markdown_file(
-                    filename=subtopic, related_filenames=[], base_path=topic_path
+                    filename=subtopic,
+                    related_filenames=[],
+                    base_path=topic_path,
+                    content_url=content_url,
                 )
             self._create_markdown_file(
-                filename=topic, related_filenames=subtopics, base_path=topic_path.parent
+                filename=topic,
+                related_filenames=[value[0] for value in subtopics],
+                base_path=topic_path.parent,
             )
 
     def _create_markdown_file(
@@ -100,6 +107,7 @@ class RoadmapExtractor:
         filename: str,
         related_filenames: list[str],
         base_path: Path,
+        content_url: Optional[str] = None,
     ) -> Path:
         logger.info(
             msg=f"Creating {filename=} markdown file with content {related_filenames}."
@@ -109,14 +117,29 @@ class RoadmapExtractor:
         markdown_file_path: Path = (
             subtopic_path / f"{self._clean_pathname(pathname=filename)}.md"
         )
+        shall_add_initial_content = not markdown_file_path.exists()
         markdown_file_path.touch(exist_ok=True)
         with open(file=markdown_file_path, mode="w") as md_file:
             logger.debug(msg=f"Creating {markdown_file_path=} file.")
-            md_file.write(f"# {filename}\n\n## Contents\n\n")
-            for item in related_filenames:
-                cleaned_filename = self._clean_pathname(pathname=item)
-                md_file.write(f"- [{item}](./{cleaned_filename}/{cleaned_filename})\n")
+            if shall_add_initial_content:
+                md_file.write(f"# {filename}\n\n## Contents\n\n")
+                for item in related_filenames:
+                    cleaned_filename = self._clean_pathname(pathname=item)
+                    md_file.write(
+                        f"- [{item}](./{cleaned_filename}/{cleaned_filename})\n"
+                    )
+
+            if content_url:
+                md_file.write(f"\n\n ## Roadmap info from ({content_url})\n")
+                content = self._get_topic_content(content_url)
+                md_file.write("\n```html\n")
+                md_file.write(str(content))
+                md_file.write("\n```\n")
         return markdown_file_path
+
+    def _get_topic_content(self, content_url: str) -> str | bytes:
+        response: requests.Response = requests.get(url=content_url)
+        return response.content
 
     def _create_directory(self, filename: str, base_path: Path) -> Path:
         new_path: Path = base_path / self._clean_pathname(pathname=filename)
