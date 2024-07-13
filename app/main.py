@@ -122,7 +122,6 @@ class RoadmapExtractor:
             subtopic_path / f"{self._clean_pathname(pathname=filename)}.md"
         )
         shall_add_initial_content = not markdown_file_path.exists()
-        markdown_file_path.touch(exist_ok=True)
         with open(file=markdown_file_path, mode="a") as md_file:
             logger.debug(msg=f"Creating {markdown_file_path=} file.")
             if shall_add_initial_content:
@@ -140,10 +139,8 @@ class RoadmapExtractor:
                 try:
                     content = self._get_topic_content(content_url)
                     md_file.write(f"\n{content}\n")
-                except Exception as e:
-                    logger.exception(
-                        msg=f"Failed to get content from {content_url}, due to {e}."
-                    )
+                except Exception:
+                    logger.exception(msg=f"Failed to get content from {content_url}.")
 
         return markdown_file_path
 
