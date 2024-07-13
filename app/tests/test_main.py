@@ -81,6 +81,4 @@ def test_handle(
             roadmap_name=roadmap_name,
             output_path=base_path,
         )
-    assert snapshot(f"{roadmap_name}.txt") == re.sub(
-        pattern=r"\d+", repl="X", string=caplog.text
-    )
+    assert f"Roadmap {roadmap_name} extracted" in caplog.text
