@@ -5,6 +5,8 @@ from typing import Any, Optional
 
 from pydantic import BaseModel
 
+from app.string_processors import clean_url_strings
+
 logger: logging.Logger = logging.getLogger(name=__name__.split(sep=".")[-1])
 
 
@@ -93,7 +95,7 @@ class SubRoadmap(BaseModel):
                     current_subtopics[current_topic].append(
                         (
                             subtopic,
-                            f"https://roadmap.sh/{roadmap_name}/{complete_name_subtopic.lower()}/{subtopic.lower()}",
+                            f"https://roadmap.sh/{roadmap_name}/{clean_url_strings(complete_name_subtopic)}/{clean_url_strings(subtopic)}",
                         ),
                     )
         logger.info(msg=f"Adding {roadmap_name=}")
@@ -105,7 +107,7 @@ class SubRoadmap(BaseModel):
                 {
                     topic: {
                         "subtopics": subtopics,
-                        "content_url": f"https://roadmap.sh/{roadmap_name}/{topic.lower()}",
+                        "content_url": f"https://roadmap.sh/{roadmap_name}/{clean_url_strings(topic)}",
                     }
                 }
             )
@@ -140,7 +142,7 @@ class Roadmap(BaseModel):
                         {
                             current_topic: {
                                 "subtopics": current_subtopics,
-                                "content_url": f"https://roadmap.sh/{roadmap_name.lower()}/{current_topic.lower()}@{node.id}",
+                                "content_url": f"https://roadmap.sh/{clean_url_strings(roadmap_name)}/{clean_url_strings(current_topic)}@{node.id}",
                             }
                         }
                     )
@@ -152,7 +154,7 @@ class Roadmap(BaseModel):
                 current_subtopics.append(
                     (
                         node.data.label,
-                        f"https://roadmap.sh/{roadmap_name.lower()}/{subtopic.lower()}@{node.id}",
+                        f"https://roadmap.sh/{clean_url_strings(roadmap_name)}/{clean_url_strings(subtopic)}@{node.id}",
                     )
                 )
         return result
