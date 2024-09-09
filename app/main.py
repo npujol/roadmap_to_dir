@@ -128,9 +128,7 @@ class RoadmapExtractor:
                 md_file.write(f"# {filename}\n\n## Contents\n\n")
                 for item in related_filenames:
                     cleaned_filename = self._clean_pathname(pathname=item)
-                    md_file.write(
-                        f"- [{item}](./{cleaned_filename}/{cleaned_filename})\n"
-                    )
+                    md_file.write(f"- [[{cleaned_filename}]]\n")
 
             if content_url:
                 md_file.write(
