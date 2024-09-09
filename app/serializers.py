@@ -84,13 +84,13 @@ class SubRoadmap(BaseModel):
                 # Topic example: 100-python-package-managers
                 # Subtopic example: 100-python-package-managers:pypi
                 topic_parts = control_name_parts[0].split(sep="-")
-                current_topic = topic_parts[-1]
+                current_topic = clean_url_strings(topic_parts[-1])
                 if current_topic == "roadmap":
                     continue
                 if current_topic not in current_subtopics.keys():
                     current_subtopics[current_topic] = []
                 if len(control_name_parts) == 2:
-                    subtopic = control_name_parts[1]
+                    subtopic = clean_url_strings(control_name_parts[1])
                     complete_name_subtopic = "-".join(topic_parts[1:])
                     current_subtopics[current_topic].append(
                         (
@@ -105,7 +105,7 @@ class SubRoadmap(BaseModel):
             logger.info(msg=f"Adding {topic=}.")
             result[roadmap_name].append(
                 {
-                    topic: {
+                    clean_url_strings(topic): {
                         "subtopics": subtopics,
                         "content_url": f"https://roadmap.sh/{roadmap_name}/{clean_url_strings(topic)}",
                     }
@@ -134,7 +134,7 @@ class Roadmap(BaseModel):
         result: dict[str, list[Any]] = {roadmap_name: []}
         for node in self.nodes:
             if node.type == "title":
-                title_node = node.data.label
+                title_node = clean_url_strings(node.data.label)
                 result[title_node] = []
             elif node.type == "topic":
                 if isinstance(current_topic, str):
@@ -147,10 +147,10 @@ class Roadmap(BaseModel):
                         }
                     )
 
-                current_topic = node.data.label
+                current_topic = clean_url_strings(node.data.label)
                 current_subtopics = []
             elif node.type == "subtopic":
-                subtopic = node.data.label
+                subtopic = clean_url_strings(node.data.label)
                 current_subtopics.append(
                     (
                         node.data.label,

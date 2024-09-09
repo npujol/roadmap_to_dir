@@ -1,11 +1,19 @@
-# Learn a Programming Language
+---
+tags:
+- roadmap
+- test_directory_structure
+- devops
+- ready
+---
+
+# devops-learn-a-programming-language
 
 ## Contents
 
-- [Python](./Python/Python)
-- [Ruby](./Ruby/Ruby)
-- [Go](./Go/Go)
-- [Rust](./Rust/Rust)
-- [JavaScript / Node.js](./JavaScript-Nodejs/JavaScript-Nodejs)
+- [[devops-learn-a-programming-language-python]]
+- [[devops-learn-a-programming-language-ruby]]
+- [[devops-learn-a-programming-language-go]]
+- [[devops-learn-a-programming-language-rust]]
+- [[devops-learn-a-programming-language-javascript-node-js]]
 
 __Roadmap info from [roadmap website](https://roadmap.sh/devops/learn-a-programming-language)__

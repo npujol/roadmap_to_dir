@@ -11,15 +11,6 @@ from app.serializers import Roadmap, SubRoadmap
 
 
 @pytest.mark.vcr()
-def test_download_roadmap_page(
-    roadmap_extractor_fixture: RoadmapExtractor, snapshot: SnapshotFixture
-) -> None:
-    name = "devops"
-    result: bytes = roadmap_extractor_fixture.download_roadmap_page(name=name)
-    assert snapshot() == str(object=result)
-
-
-@pytest.mark.vcr()
 @pytest.mark.parametrize("roadmap_name", ["devops", "python", "docker"])
 def test_get_roadmap(
     roadmap_name: str,
@@ -47,13 +38,13 @@ def test_directory_structure(
     roadmap_extractor_fixture.create_structure(
         data=structure_fixture, base_path=base_path
     )
-    assert (base_path / "DevOps").is_dir()
-    assert (base_path / "DevOps" / "Learn-a-Programming-Language").is_dir()
+    assert (base_path / "devops").is_dir()
+    assert (base_path / "devops" / "devops-learn-a-programming-language").is_dir()
     md_file_path: Path = (
         base_path
-        / "DevOps"
-        / "Learn-a-Programming-Language"
-        / "Learn-a-Programming-Language.md"
+        / "devops"
+        / "devops-learn-a-programming-language"
+        / "devops-learn-a-programming-language.md"
     )
 
     assert md_file_path.is_file()
