@@ -10,8 +10,8 @@ def roadmap_extractor_fixture() -> RoadmapExtractor:
     return RoadmapExtractor()
 
 
-@pytest.fixture()
-def structure_fixture() -> dict[str, list[dict[str, list[str]]]]:
+@pytest.fixture()  # type: ignore
+def structure_fixture() -> dict[str, Any]:
     return {
         "DevOps": [
             {
