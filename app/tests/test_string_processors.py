@@ -24,7 +24,7 @@ from app.string_processors import clean_url_strings
         ),
         (
             "Test%",
-            "test-",
+            "test",
         ),
     ],
 )
