@@ -115,14 +115,14 @@ class SubRoadmap(BaseModel):
 
 
 class Data(BaseModel):
-    label: str
+    label: Optional[str] = ""
 
 
 class Node(BaseModel):
-    id: str
-    type: str
+    id: Optional[str] = None
+    type: Optional[str] = ""
     selected: Optional[bool] = None
-    data: Data
+    data: Optional[Data] = None
 
 
 class Roadmap(BaseModel):

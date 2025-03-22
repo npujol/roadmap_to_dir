@@ -55,7 +55,8 @@ class RoadmapExtractor:
                 obj=content_dict, strict=False
             )
             logger.info(msg="The content is a roadmap.")
-        except ValidationError:
+        except ValidationError as e:
+            logger.error(e)
             logger.info(msg="Checking if the content is a subroadmap.")
             roadmap: Roadmap | SubRoadmap = SubRoadmap.model_validate(
                 obj=content_dict, strict=False

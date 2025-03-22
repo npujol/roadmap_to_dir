@@ -56,7 +56,7 @@ def test_directory_structure(
 
 
 @pytest.mark.vcr()
-@pytest.mark.parametrize("roadmap_name", ["devops", "python", "docker"])
+@pytest.mark.parametrize("roadmap_name", ["devops", "python", "docker", "ai-engineer"])
 def test_handle(
     roadmap_name: str,
     roadmap_extractor_fixture: RoadmapExtractor,
